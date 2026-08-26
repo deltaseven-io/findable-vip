@@ -12,6 +12,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Findable — SEO & AI for Small Business">
   <meta name="twitter:description" content="SEO services for small business. Get found on Google, ChatGPT, and every AI assistant.">
+  <meta property="og:image" content="https://findable.vip/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="https://findable.vip/og-image.png">
   <meta property="og:site_name" content="Findable">
   <meta property="og:locale" content="en_US">
   <link rel="canonical" href="https://findable.vip/">
@@ -1033,12 +1037,12 @@
             <div class="label">Referrals from<br>ChatGPT</div>
           </div>
           <div class="stat-cell">
-            <div class="number" data-target="11500" data-format="k">0</div>
-            <div class="label">Google impressions<br>in first month</div>
+            <div class="number" data-target="0" data-prefix="$">$0</div>
+            <div class="label">Spent on<br>ads</div>
           </div>
           <div class="stat-cell">
-            <div class="number" data-target="11">0</div>
-            <div class="label">Review snippets<br>in Google</div>
+            <div class="number" data-target="9">0</div>
+            <div class="label">Five-star Google<br>reviews</div>
           </div>
         </div>
         <div class="case-quote-wrap">
@@ -1172,7 +1176,9 @@
           const el = entry.target;
           const target = parseInt(el.dataset.target);
           const format = el.dataset.format;
+          const prefix = el.dataset.prefix || '';
           const duration = 2000;
+          if (target === 0) { el.textContent = prefix + '0'; counterObserver.unobserve(el); return; }
           const start = performance.now();
           function tick(now) {
             const elapsed = now - start;
@@ -1180,9 +1186,9 @@
             const eased = 1 - Math.pow(1 - progress, 3);
             const current = Math.round(eased * target);
             if (format === 'k') {
-              el.textContent = (current / 1000).toFixed(current >= 1000 ? 1 : 0) + (current >= 1000 ? 'K' : '');
+              el.textContent = prefix + (current / 1000).toFixed(current >= 1000 ? 1 : 0) + (current >= 1000 ? 'K' : '');
             } else {
-              el.textContent = current;
+              el.textContent = prefix + current;
             }
             if (progress < 1) requestAnimationFrame(tick);
           }

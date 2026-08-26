@@ -42,8 +42,8 @@ After a single round of optimizations, deltaseven.io saw these results in under 
 Stats:
 - 16 — New clients from Google
 - 5 — Referrals from ChatGPT
-- 11.5K — Google impressions in first month
-- 11 — Review snippets in Google
+- $0 — Spent on ads
+- 9 — Five-star Google reviews
 
 Quote: "Two of my new clients told me they found me through ChatGPT. I didn't even know that was possible."
 
