@@ -79,7 +79,7 @@ Most clients are live in 1-2 weeks.
 ## Founder
 Label: WHO
 
-**Not an agency.**
+**Independent contractor.**
 
 I'm Phil. I built SEO and AI visibility for my own business — no agency, no ad spend — and it worked. Now I do the same for other small businesses.
 
@@ -94,7 +94,7 @@ Label: READY?
 
 **Let's make you findable.**
 
-Free 15-minute consultation. No pitch, no pressure. Just an honest look at where you stand.
+Free 15-minute consultation for an honest look at your online presence.
 
 - Button: **Book a Free Consultation →**
 - Or call/text: 224-343-8086
