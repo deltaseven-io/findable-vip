@@ -189,12 +189,12 @@
       --amber-light: #CC8A1E;
       --amber-glow: rgba(184,122,21,0.25);
       --slate: #2D2B3D;
-      --gray-warm: #6B6B6B;
-      --silver: #999;
-      --white: #111;
-      --dark: #FAFAF8;
-      --dark-card: #F0EFEC;
-      --dark-border: rgba(0,0,0,0.07);
+      --gray-warm: #aab4b7;
+      --silver: #8a9da3;
+      --white: #F0EDE8;
+      --dark: #143842;
+      --dark-card: #1a4d5a;
+      --dark-border: rgba(255,255,255,0.08);
     }
 
     html { scroll-behavior: smooth; }
@@ -225,7 +225,7 @@
       align-items: center;
       gap: 2rem;
       z-index: 100;
-      background: rgba(250,250,248,0.7);
+      background: rgba(10,35,42,0.8);
       backdrop-filter: blur(24px) saturate(1.5);
       border: 1px solid var(--dark-border);
       border-radius: 100px;
@@ -261,7 +261,7 @@
 
     .main-nav a.cta-nav {
       color: #fff;
-      background: var(--teal);
+      background: var(--amber);
       padding: 0.55rem 1.4rem;
       border-radius: 100px;
       text-decoration: none;
@@ -271,8 +271,8 @@
     }
 
     .main-nav a.cta-nav:hover {
-      background: var(--teal-light);
-      box-shadow: 0 0 40px rgba(20,56,66,0.3);
+      background: var(--amber-light);
+      box-shadow: 0 0 40px var(--amber-glow);
     }
 
     /* HERO */
@@ -355,7 +355,10 @@
     }
 
     .hero-title .accent {
-      color: var(--amber);
+      color: var(--white);
+    }
+    .hero-title .accent-dot {
+      color: var(--amber-light);
     }
 
     .hero-sub {
@@ -385,7 +388,7 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: var(--teal);
+      background: var(--amber);
       color: #fff;
       padding: 0.75rem 1.4rem;
       border-radius: 100px;
@@ -412,7 +415,7 @@
 
     .cta-btn:hover {
       transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 12px 50px rgba(20,56,66,0.3);
+      box-shadow: 0 12px 50px var(--amber-glow);
     }
 
     .cta-link {
@@ -633,7 +636,7 @@
       transition: all 0.3s;
     }
 
-    .accordion:hover { border-color: rgba(0,0,0,0.12); }
+    .accordion:hover { border-color: rgba(255,255,255,0.15); }
 
     .accordion-header {
       display: flex;
@@ -864,7 +867,7 @@
       white-space: nowrap;
       pointer-events: none;
       user-select: none;
-      -webkit-text-stroke: 1px rgba(20,56,66,0.04);
+      -webkit-text-stroke: 1px rgba(240,237,232,0.04);
       color: transparent;
     }
 
@@ -993,7 +996,7 @@
       <h1 class="hero-title">
         <span class="line"><span class="line-inner">Your business</span></span>
         <span class="line"><span class="line-inner">should be</span></span>
-        <span class="line"><span class="line-inner"><span class="accent">findable.</span></span></span>
+        <span class="line"><span class="line-inner"><span class="accent">findable<span class="accent-dot">.</span></span></span></span>
       </h1>
       <p class="hero-sub">We get small businesses in front of customers on Google, ChatGPT, Gemini, Siri, and every AI assistant replacing the search bar.</p>
       <div class="hero-actions">
