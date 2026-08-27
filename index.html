@@ -348,11 +348,17 @@
       animation: slideUp 1s cubic-bezier(0.16,1,0.3,1) forwards;
     }
 
-    .hero-title .line:nth-child(2) .line-inner { animation-delay: 0.1s; }
-    .hero-title .line:nth-child(3) .line-inner { animation-delay: 0.2s; }
+    .hero-title .line:nth-child(2) .line-inner { animation-delay: 0.15s; }
 
     @keyframes slideUp {
       to { transform: translateY(0); }
+    }
+
+    .hero-pre {
+      font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+      font-weight: 400;
+      letter-spacing: 0;
+      display: block;
     }
 
     .hero-title .accent {
@@ -360,6 +366,7 @@
       color: var(--white);
     }
     .hero-title .accent-dot {
+      font-family: 'Outfit', sans-serif;
       color: var(--amber-light);
     }
 
@@ -996,8 +1003,7 @@
   <section class="hero" aria-label="Introduction">
     <div class="hero-content">
       <h1 class="hero-title">
-        <span class="line"><span class="line-inner">Your business</span></span>
-        <span class="line"><span class="line-inner">should be</span></span>
+        <span class="line"><span class="line-inner hero-pre">Your business should be</span></span>
         <span class="line"><span class="line-inner"><span class="accent">Findable<span class="accent-dot">.</span></span></span></span>
       </h1>
       <p class="hero-sub">We get small businesses in front of customers on Google, ChatGPT, Gemini, Siri, and every AI assistant replacing the search bar.</p>
