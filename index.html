@@ -261,7 +261,7 @@
 
     .main-nav a.cta-nav {
       color: #fff;
-      background: var(--amber);
+      background: var(--teal);
       padding: 0.55rem 1.4rem;
       border-radius: 100px;
       text-decoration: none;
@@ -271,8 +271,8 @@
     }
 
     .main-nav a.cta-nav:hover {
-      background: var(--amber-light);
-      box-shadow: 0 0 40px var(--amber-glow);
+      background: var(--teal-light);
+      box-shadow: 0 0 40px rgba(20,56,66,0.3);
     }
 
     /* HERO */
@@ -385,7 +385,7 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      background: var(--amber);
+      background: var(--teal);
       color: #fff;
       padding: 0.75rem 1.4rem;
       border-radius: 100px;
@@ -412,7 +412,7 @@
 
     .cta-btn:hover {
       transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 12px 50px var(--amber-glow);
+      box-shadow: 0 12px 50px rgba(20,56,66,0.3);
     }
 
     .cta-link {
@@ -1037,8 +1037,8 @@
             <div class="label">Referrals from<br>ChatGPT</div>
           </div>
           <div class="stat-cell">
-            <div class="number" data-target="0" data-prefix="$">$0</div>
-            <div class="label">Spent on<br>ads</div>
+            <div class="number" data-target="10" data-suffix="+">0</div>
+            <div class="label">Google search<br>terms ranking</div>
           </div>
           <div class="stat-cell">
             <div class="number" data-target="9">0</div>
@@ -1177,8 +1177,9 @@
           const target = parseInt(el.dataset.target);
           const format = el.dataset.format;
           const prefix = el.dataset.prefix || '';
+          const suffix = el.dataset.suffix || '';
           const duration = 2000;
-          if (target === 0) { el.textContent = prefix + '0'; counterObserver.unobserve(el); return; }
+          if (target === 0) { el.textContent = prefix + '0' + suffix; counterObserver.unobserve(el); return; }
           const start = performance.now();
           function tick(now) {
             const elapsed = now - start;
@@ -1186,9 +1187,9 @@
             const eased = 1 - Math.pow(1 - progress, 3);
             const current = Math.round(eased * target);
             if (format === 'k') {
-              el.textContent = prefix + (current / 1000).toFixed(current >= 1000 ? 1 : 0) + (current >= 1000 ? 'K' : '');
+              el.textContent = prefix + (current / 1000).toFixed(current >= 1000 ? 1 : 0) + (current >= 1000 ? 'K' : '') + suffix;
             } else {
-              el.textContent = prefix + current;
+              el.textContent = prefix + current + suffix;
             }
             if (progress < 1) requestAnimationFrame(tick);
           }
