@@ -35,12 +35,12 @@ Label: RESULTS
 **Proof, not promises.**
 
 ### deltaseven.io — Math Tutoring
-Headline: **16 new clients from Google.**
+Headline: **20 new clients from Google.**
 
 After a single round of optimizations, deltaseven.io saw these results in under 90 days — with zero ad spend.
 
 Stats:
-- 16 — New clients from Google
+- 20 — New clients from Google
 - 5 — Referrals from ChatGPT
 - 10+ — Google search terms ranking
 - 9 — Five-star Google reviews
