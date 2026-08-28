@@ -32,7 +32,7 @@ People don't just Google things anymore. They ask ChatGPT, Gemini, and Siri. We 
 ## Results / Case Study
 Label: RESULTS
 
-**Proof, not promises.**
+**Real, measurable results.**
 
 ### deltaseven.io — Math Tutoring
 Headline: **20 new clients from Google.**
