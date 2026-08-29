@@ -48,7 +48,7 @@ We offer a free 15-minute SEO consultation for an honest look at your current Go
 | Client | Industry | Location | Status |
 |--------|----------|----------|--------|
 | deltaseven.io | Math Tutoring | United States | Active — results published |
-| nwpianolessons.com | Piano Lessons | Palatine, IL | In progress — launching Sept 2026 |
+| nwpianolessons.com | Piano Lessons | Palatine, IL | In progress — baseline: 9 impressions, 0 clicks, avg pos 34.8, 4/23 pages indexed. Launching Sept 2026 |
 | watermandan.com | Water Treatment | New Buffalo, MI | Coming soon — launching Q1 2027 |
 
 ## Engagement Model
