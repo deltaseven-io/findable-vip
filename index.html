@@ -547,6 +547,7 @@
       border: 1px solid var(--dark-border);
       border-radius: 24px;
       overflow: hidden;
+      position: relative;
     }
 
     .case-header {
@@ -809,6 +810,12 @@
       display: block;
       height: 5px;
       background: #111;
+    }
+    .case-phone {
+      position: absolute;
+      right: 24px;
+      bottom: 16px;
+      width: 110px;
     }
 
     .stats-bar.mini {
@@ -1101,7 +1108,7 @@
       <h2 class="reveal">Real, measurable results.</h2>
       <div class="case-wrap reveal">
         <div class="case-header">
-          <div class="case-label"><a href="https://deltaseven.io" target="_blank" rel="noopener" style="color:#CC8A1E;text-decoration:underline;text-underline-offset:3px">deltaseven.io</a> &mdash; Math Tutoring</div>
+          <div class="case-label" style="font-family:'Mosvita',sans-serif;font-weight:700;font-size:1.15rem;text-transform:none;letter-spacing:0"><a href="https://deltaseven.io" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">deltaseven.io</a> &mdash; Math Tutoring</div>
           <div class="case-title">20 new clients from Google.</div>
           <p class="case-desc">After a single round of optimizations, deltaseven.io saw these results in under 90 days — with zero ad spend.</p>
         </div>
@@ -1125,6 +1132,9 @@
         </div>
         <div class="case-quote-wrap">
           <blockquote>"Two of my new clients told me they found me through ChatGPT. I didn't even know that was possible."</blockquote>
+        </div>
+        <div class="phone-frame case-phone">
+          <img src="deltaseven-mobile.png" alt="deltaseven.io mobile view" loading="lazy">
         </div>
       </div>
       <div class="accordion reveal" onclick="this.classList.toggle('open')">
