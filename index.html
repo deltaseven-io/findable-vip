@@ -776,28 +776,29 @@
       border: 1px solid var(--dark-border);
     }
 
-    .phone-showcase {
-      display: flex;
-      justify-content: center;
-      padding: 1rem 2rem 0.5rem;
+    .ba-col-after {
+      position: relative;
     }
     .phone-frame {
-      width: 180px;
-      border-radius: 24px;
-      border: 3px solid #444;
+      position: absolute;
+      right: -8px;
+      bottom: -12px;
+      width: 30%;
+      max-width: 120px;
+      border-radius: 12px;
+      border: 2.5px solid #444;
       overflow: hidden;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
       background: #111;
-      position: relative;
     }
     .phone-frame::before {
       content: '';
       display: block;
-      width: 60px;
-      height: 6px;
+      width: 36px;
+      height: 4px;
       background: #333;
-      border-radius: 3px;
-      margin: 8px auto 4px;
+      border-radius: 2px;
+      margin: 5px auto 2px;
     }
     .phone-frame img {
       width: 100%;
@@ -806,11 +807,8 @@
     .phone-frame::after {
       content: '';
       display: block;
-      height: 8px;
+      height: 5px;
       background: #111;
-    }
-    @media (max-width: 600px) {
-      .phone-frame { width: 140px; }
     }
 
     .stats-bar.mini {
@@ -1147,14 +1145,12 @@
               <div class="ba-label">Before — Wix</div>
               <img src="nwpiano-before.png" alt="NW Piano old Wix website" loading="lazy">
             </div>
-            <div class="ba-col">
+            <div class="ba-col ba-col-after">
               <div class="ba-label">After — Custom Build</div>
               <img src="nwpiano-after.png" alt="NW Piano new custom website" loading="lazy">
-            </div>
-          </div>
-          <div class="phone-showcase">
-            <div class="phone-frame">
-              <img src="nwpiano-mobile.png" alt="NW Piano mobile view" loading="lazy">
+              <div class="phone-frame">
+                <img src="nwpiano-mobile.png" alt="NW Piano mobile view" loading="lazy">
+              </div>
             </div>
           </div>
           <div class="stats-bar mini">
