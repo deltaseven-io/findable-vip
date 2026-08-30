@@ -776,6 +776,43 @@
       border: 1px solid var(--dark-border);
     }
 
+    .phone-showcase {
+      display: flex;
+      justify-content: center;
+      padding: 1rem 2rem 0.5rem;
+    }
+    .phone-frame {
+      width: 180px;
+      border-radius: 24px;
+      border: 3px solid #444;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+      background: #111;
+      position: relative;
+    }
+    .phone-frame::before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 6px;
+      background: #333;
+      border-radius: 3px;
+      margin: 8px auto 4px;
+    }
+    .phone-frame img {
+      width: 100%;
+      display: block;
+    }
+    .phone-frame::after {
+      content: '';
+      display: block;
+      height: 8px;
+      background: #111;
+    }
+    @media (max-width: 600px) {
+      .phone-frame { width: 140px; }
+    }
+
     .stats-bar.mini {
       margin-top: 0;
       border-top: 1px solid var(--dark-border);
@@ -1113,6 +1150,11 @@
             <div class="ba-col">
               <div class="ba-label">After — Custom Build</div>
               <img src="nwpiano-after.png" alt="NW Piano new custom website" loading="lazy">
+            </div>
+          </div>
+          <div class="phone-showcase">
+            <div class="phone-frame">
+              <img src="nwpiano-mobile.png" alt="NW Piano mobile view" loading="lazy">
             </div>
           </div>
           <div class="stats-bar mini">
