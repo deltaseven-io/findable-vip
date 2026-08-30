@@ -48,9 +48,9 @@ Stats:
 Quote: "Two of my new clients told me they found me through ChatGPT. I didn't even know that was possible."
 
 ### nwpianolessons.com — Piano Lessons — Palatine, IL
-Status: In progress
+Status: Active
 
-Baseline captured at onboarding — optimizations underway. New site launching soon.
+New site launched August 29, 2026 — all SEO and AI visibility optimizations implemented.
 
 Stats (all baseline):
 - 0 — Google clicks (baseline)

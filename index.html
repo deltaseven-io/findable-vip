@@ -743,7 +743,7 @@
     }
 
     .accordion.open .accordion-body {
-      max-height: 400px;
+      max-height: 800px;
     }
 
     .accordion-desc {
@@ -751,6 +751,29 @@
       font-size: 0.85rem;
       color: var(--gray-warm);
       line-height: 1.6;
+    }
+
+    .before-after {
+      display: flex;
+      gap: 1rem;
+      padding: 0 2rem 1.25rem;
+    }
+    .before-after .ba-col {
+      flex: 1;
+      text-align: center;
+    }
+    .before-after .ba-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gray-warm);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .before-after img {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid var(--dark-border);
     }
 
     .stats-bar.mini {
@@ -966,6 +989,8 @@
       .accordion-header { padding: 1.25rem 1.25rem; }
       .client-name { font-size: 1rem; }
       .accordion-desc { padding: 0 1.25rem 1rem; }
+      .before-after { flex-direction: column; padding: 0 1.25rem 1rem; }
+      .accordion.open .accordion-body { max-height: 1200px; }
       .stats-bar.mini { grid-template-columns: repeat(2, 1fr); }
       .stats-bar.mini .stat-cell:nth-child(2) { border-right: none; }
       .stats-bar.mini .stat-cell:nth-child(1), .stats-bar.mini .stat-cell:nth-child(2) { border-bottom: 1px solid var(--dark-border); }
@@ -1072,14 +1097,24 @@
           <div class="accordion-left">
             <div class="client-name-row">
               <div class="client-name"><a href="https://nwpianolessons.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">nwpianolessons.com</a></div>
-              <div class="client-status active">In progress</div>
+              <div class="client-status active">Active</div>
             </div>
             <div class="client-type">Piano Lessons — Palatine, IL</div>
           </div>
           <div class="accordion-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div>
         </div>
         <div class="accordion-body">
-          <div class="accordion-desc">Baseline captured August 29, 2026 — optimizations underway. New site launching soon.</div>
+          <div class="accordion-desc">New site launched August 29, 2026 — all SEO and AI visibility optimizations implemented.</div>
+          <div class="before-after">
+            <div class="ba-col">
+              <div class="ba-label">Before — Wix</div>
+              <img src="nwpiano-before.png" alt="NW Piano old Wix website" loading="lazy">
+            </div>
+            <div class="ba-col">
+              <div class="ba-label">After — Custom Build</div>
+              <img src="nwpiano-after.png" alt="NW Piano new custom website" loading="lazy">
+            </div>
+          </div>
           <div class="stats-bar mini">
             <div class="stat-cell">
               <div class="number">9</div>
