@@ -825,6 +825,23 @@
       border-top: 1px solid var(--dark-border);
     }
 
+    .stats-section-label {
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: .75rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--amber);
+      padding: .75rem 0 0;
+      margin: 0;
+    }
+
+    .stats-section-label.current {
+      color: #4ade80;
+      margin-top: .5rem;
+    }
+
     .stats-bar.mini .stat-cell {
       padding: 1.25rem;
     }
@@ -1291,6 +1308,44 @@
         <div class="case-quote-wrap">
           <blockquote>"Two of my new clients told me they found me through ChatGPT. I didn't even know that was possible."</blockquote>
         </div>
+        <p class="stats-section-label">Baseline &mdash; February 1, 2026</p>
+        <div class="stats-bar mini">
+          <div class="stat-cell">
+            <div class="number">45</div>
+            <div class="label">Impressions</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number">2</div>
+            <div class="label">Google clicks</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number">52</div>
+            <div class="label">Avg position</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number">3</div>
+            <div class="label">Pages indexed</div>
+          </div>
+        </div>
+        <p class="stats-section-label current">Data as of <span id="d7-date">August 31, 2026</span></p>
+        <div class="stats-bar mini">
+          <div class="stat-cell">
+            <div class="number" id="d7-impressions">1,240</div>
+            <div class="label">Impressions</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number" id="d7-clicks">87</div>
+            <div class="label">Google clicks</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number" id="d7-position">8.2</div>
+            <div class="label">Avg position</div>
+          </div>
+          <div class="stat-cell">
+            <div class="number" id="d7-indexed">12</div>
+            <div class="label">Pages indexed</div>
+          </div>
+        </div>
       </div>
       <div class="accordion reveal" onclick="this.classList.toggle('open')">
         <div class="accordion-header">
@@ -1318,22 +1373,42 @@
               </div>
             </div>
           </div>
+          <p class="stats-section-label">Baseline &mdash; August 29, 2026</p>
           <div class="stats-bar mini">
             <div class="stat-cell">
               <div class="number">9</div>
-              <div class="label">Impressions<br>(baseline)</div>
+              <div class="label">Impressions</div>
             </div>
             <div class="stat-cell">
               <div class="number">0</div>
-              <div class="label">Google clicks<br>(baseline)</div>
+              <div class="label">Google clicks</div>
             </div>
             <div class="stat-cell">
               <div class="number">34.8</div>
-              <div class="label">Avg position<br>(baseline)</div>
+              <div class="label">Avg position</div>
             </div>
             <div class="stat-cell">
               <div class="number">4</div>
-              <div class="label">Pages indexed<br>(of 23)</div>
+              <div class="label">Pages indexed</div>
+            </div>
+          </div>
+          <p class="stats-section-label current">Data as of <span id="nwpiano-date">August 31, 2026</span></p>
+          <div class="stats-bar mini">
+            <div class="stat-cell">
+              <div class="number" id="nwpiano-impressions">9</div>
+              <div class="label">Impressions</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="nwpiano-clicks">0</div>
+              <div class="label">Google clicks</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="nwpiano-position">34.8</div>
+              <div class="label">Avg position</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="nwpiano-indexed">4</div>
+              <div class="label">Pages indexed</div>
             </div>
           </div>
         </div>
