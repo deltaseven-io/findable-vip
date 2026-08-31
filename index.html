@@ -829,17 +829,34 @@
       text-align: center;
       font-family: 'Inter', sans-serif;
       font-weight: 700;
-      font-size: .75rem;
-      letter-spacing: .12em;
+      font-size: .7rem;
+      letter-spacing: .14em;
       text-transform: uppercase;
-      color: var(--amber);
+      color: rgba(255,255,255,0.4);
       padding: .75rem 0 0;
       margin: 0;
     }
 
     .stats-section-label.current {
       color: #4ade80;
-      margin-top: .5rem;
+      margin-top: .25rem;
+    }
+
+    .stats-bar.mini.baseline .number {
+      color: rgba(255,255,255,0.35);
+      font-size: 1.4rem;
+    }
+
+    .stats-bar.mini.baseline .label {
+      color: rgba(255,255,255,0.25);
+    }
+
+    .stats-bar.mini.current .number {
+      color: #4ade80;
+    }
+
+    .stats-bar.mini.current .label {
+      color: rgba(74,222,128,0.6);
     }
 
     .stats-bar.mini .stat-cell {
@@ -1309,7 +1326,7 @@
           <blockquote>"Two of my new clients told me they found me through ChatGPT. I didn't even know that was possible."</blockquote>
         </div>
         <p class="stats-section-label">Baseline &mdash; February 1, 2026</p>
-        <div class="stats-bar mini">
+        <div class="stats-bar mini baseline">
           <div class="stat-cell">
             <div class="number">45</div>
             <div class="label">Impressions</div>
@@ -1328,7 +1345,7 @@
           </div>
         </div>
         <p class="stats-section-label current">Data as of <span id="d7-date">August 31, 2026</span></p>
-        <div class="stats-bar mini">
+        <div class="stats-bar mini current">
           <div class="stat-cell">
             <div class="number" id="d7-impressions">1,240</div>
             <div class="label">Impressions</div>
@@ -1374,7 +1391,7 @@
             </div>
           </div>
           <p class="stats-section-label">Baseline &mdash; August 29, 2026</p>
-          <div class="stats-bar mini">
+          <div class="stats-bar mini baseline">
             <div class="stat-cell">
               <div class="number">9</div>
               <div class="label">Impressions</div>
@@ -1393,17 +1410,17 @@
             </div>
           </div>
           <p class="stats-section-label current">Data as of <span id="nwpiano-date">August 31, 2026</span></p>
-          <div class="stats-bar mini">
+          <div class="stats-bar mini current">
             <div class="stat-cell">
-              <div class="number" id="nwpiano-impressions">9</div>
+              <div class="number" id="nwpiano-impressions">27</div>
               <div class="label">Impressions</div>
             </div>
             <div class="stat-cell">
-              <div class="number" id="nwpiano-clicks">0</div>
+              <div class="number" id="nwpiano-clicks">2</div>
               <div class="label">Google clicks</div>
             </div>
             <div class="stat-cell">
-              <div class="number" id="nwpiano-position">34.8</div>
+              <div class="number" id="nwpiano-position">22.7</div>
               <div class="label">Avg position</div>
             </div>
             <div class="stat-cell">
