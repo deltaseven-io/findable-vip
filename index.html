@@ -920,8 +920,10 @@
     /* PRICING */
     .pricing-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: 1fr 1.2fr;
       gap: 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
     }
     .pricing-card {
       background: var(--dark-card);
@@ -1202,6 +1204,7 @@
       .case-quote-wrap blockquote { font-size: 0.92rem; padding-left: 1.2rem; }
       .process-steps { flex-direction: column; gap: 1rem; }
       .step-num { width: 32px; height: 32px; font-size: 0.8rem; }
+      .pricing-grid { grid-template-columns: 1fr; max-width: 400px; }
       .founder-grid { grid-template-columns: 1fr; gap: 2rem; }
       .founder-photo { aspect-ratio: 16/9; }
       .final-cta { padding: 2.5rem 1.5rem 1.5rem; }
@@ -1417,32 +1420,20 @@
           <a href="mailto:phil@deltaseven.io?subject=Free%20Consultation%20-%20Findable" class="pricing-cta primary">Book Now &rarr;</a>
         </div>
         <div class="pricing-card featured">
-          <div class="pricing-badge">Most Popular</div>
-          <div class="pricing-name">SEO Starter</div>
-          <div class="pricing-price">$500<span>/mo</span></div>
-          <div class="pricing-desc">Everything you need to start ranking on Google and getting found by customers.</div>
+          <div class="pricing-badge">Full Service</div>
+          <div class="pricing-name">Get Findable</div>
+          <div class="pricing-price">$800<span>/mo</span></div>
+          <div class="pricing-desc">Everything you need to show up on Google and every AI assistant your customers use.</div>
           <ul class="pricing-features">
             <li>On-page SEO optimization</li>
-            <li>Schema markup</li>
-            <li>Google Search Console setup</li>
-            <li>Sitemap &amp; robots.txt</li>
+            <li>Schema &amp; structured data</li>
+            <li>Google Search Console &amp; GA4</li>
+            <li>AI visibility &amp; llms.txt</li>
+            <li>New pages &amp; content strategy</li>
+            <li>ChatGPT / Gemini monitoring</li>
             <li>Monthly performance report</li>
           </ul>
-          <a href="mailto:phil@deltaseven.io?subject=SEO%20Starter%20-%20Findable" class="pricing-cta primary">Get Started &rarr;</a>
-        </div>
-        <div class="pricing-card">
-          <div class="pricing-name">Full Visibility</div>
-          <div class="pricing-price">$1,000<span>/mo</span></div>
-          <div class="pricing-desc">SEO + AI visibility. Show up on Google and every AI assistant your customers are using.</div>
-          <ul class="pricing-features">
-            <li>Everything in SEO Starter</li>
-            <li>AI visibility optimization</li>
-            <li>llms.txt &amp; AI-ready content</li>
-            <li>ChatGPT / Gemini monitoring</li>
-            <li>Content strategy</li>
-            <li>Priority support</li>
-          </ul>
-          <a href="mailto:phil@deltaseven.io?subject=Full%20Visibility%20-%20Findable" class="pricing-cta primary">Get Started &rarr;</a>
+          <a href="mailto:phil@deltaseven.io?subject=Get%20Findable%20-%20Findable" class="pricing-cta primary">Get Started &rarr;</a>
         </div>
       </div>
       <p class="section-sub reveal" style="margin-top:2rem;text-align:center;max-width:100%">Custom website builds quoted separately. All plans are month-to-month&nbsp;&mdash; no contracts.</p>
