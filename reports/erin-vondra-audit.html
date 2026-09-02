@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO & AI Audit — erinvondra.com | Findable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --teal: #163e4b;
+      --teal-light: #1d5264;
+      --amber: #c07201;
+      --amber-light: #d48010;
+      --dark-bg: #0e1a1f;
+      --dark-card: #1d5264;
+      --dark-border: rgba(255,255,255,0.08);
+      --white: #f5f5f5;
+      --gray-warm: rgba(255,255,255,0.55);
+      --red: #ef4444;
+      --red-dim: rgba(239,68,68,0.15);
+      --yellow: #facc15;
+      --yellow-dim: rgba(250,204,21,0.15);
+      --green: #4ade80;
+      --green-dim: rgba(74,222,128,0.15);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--dark-bg);
+      color: var(--white);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    .container { max-width: 860px; margin: 0 auto; }
+
+    .report-header {
+      text-align: center;
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--dark-border);
+      margin-bottom: 2rem;
+    }
+
+    .report-brand {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--amber);
+      font-weight: 600;
+      margin-bottom: .75rem;
+    }
+
+    .report-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: -1px;
+      margin-bottom: .5rem;
+    }
+
+    .report-subtitle {
+      color: var(--gray-warm);
+      font-size: 1rem;
+      max-width: 550px;
+      margin: 0 auto;
+    }
+
+    .report-date {
+      font-size: .75rem;
+      color: rgba(255,255,255,0.3);
+      margin-top: 1rem;
+    }
+
+    /* Section blocks */
+    .audit-section {
+      background: var(--teal);
+      border: 1px solid var(--dark-border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--amber);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    /* Stats grid — matches findable.vip */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--dark-border);
+    }
+
+    .stats-bar.three-col {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .stat-cell {
+      padding: 1.5rem 1rem;
+      text-align: center;
+      border-right: 1px solid var(--dark-border);
+    }
+
+    .stat-cell:last-child { border-right: none; }
+
+    .stat-cell .number {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      letter-spacing: -1px;
+    }
+
+    .stat-cell .label {
+      font-size: 0.72rem;
+      color: var(--gray-warm);
+      line-height: 1.4;
+      letter-spacing: 0.3px;
+    }
+
+    .stats-section-label {
+      text-align: center;
+      font-weight: 700;
+      font-size: .7rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+      padding: .75rem 0 0;
+      margin: 0;
+    }
+
+    /* Color coding */
+    .number.red { color: var(--red); }
+    .number.yellow { color: var(--yellow); }
+    .number.green { color: var(--green); }
+    .number.amber { color: var(--amber); }
+
+    /* Issue list */
+    .issue-grid {
+      display: grid;
+      gap: .75rem;
+      margin-top: 1rem;
+    }
+
+    .issue-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: .85rem 1rem;
+      border-radius: 10px;
+      font-size: .9rem;
+    }
+
+    .issue-row.critical { background: var(--red-dim); }
+    .issue-row.warning { background: var(--yellow-dim); }
+    .issue-row.ok { background: var(--green-dim); }
+
+    .issue-badge {
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: .25rem .6rem;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    .issue-badge.fail { background: var(--red); color: #fff; }
+    .issue-badge.warn { background: var(--yellow); color: #000; }
+    .issue-badge.pass { background: var(--green); color: #000; }
+
+    .issue-text { flex: 1; color: rgba(255,255,255,0.8); }
+
+    /* Verdict */
+    .verdict-box {
+      background: linear-gradient(135deg, var(--teal), var(--teal-light));
+      border: 2px solid var(--amber);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .verdict-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--amber);
+      margin-bottom: .75rem;
+    }
+
+    .verdict-text {
+      color: rgba(255,255,255,0.7);
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: .95rem;
+      line-height: 1.7;
+    }
+
+    .findable-footer {
+      text-align: center;
+      padding: 2.5rem 0 1rem;
+      color: rgba(255,255,255,0.25);
+      font-size: .75rem;
+    }
+
+    .findable-footer a {
+      color: var(--amber);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      .audit-section { padding: 1.25rem; }
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .stats-bar.three-col { grid-template-columns: repeat(3, 1fr); }
+      .stat-cell { padding: 1rem .75rem; }
+      .stat-cell .number { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="report-header">
+      <div class="report-brand">Findable.vip &mdash; Prospect Audit</div>
+      <div class="report-title">erinvondra.com</div>
+      <div class="report-subtitle">SEO & AI Visibility Analysis for Erin Vondra &mdash; Real Estate &amp; Interior Design, Bartlett IL</div>
+      <div class="report-date">Prepared September 2, 2026</div>
+    </div>
+
+    <!-- Scorecard -->
+    <div class="audit-section">
+      <div class="section-label">Current Scorecard</div>
+      <p class="stats-section-label">erinvondra.com &mdash; September 2, 2026</p>
+      <div class="stats-bar">
+        <div class="stat-cell">
+          <div class="number red">0</div>
+          <div class="label">Google ranking for<br>"bartlett real estate agent"</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">0</div>
+          <div class="label">Meta descriptions<br>on site</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">0</div>
+          <div class="label">Structured data<br>(JSON-LD)</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">0</div>
+          <div class="label">AI visibility<br>score</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEO Checklist -->
+    <div class="audit-section">
+      <div class="section-label">SEO Checklist</div>
+      <div class="section-title">Technical SEO &amp; On-Page</div>
+      <div class="issue-grid">
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">Homepage title is just "Home" &mdash; no keywords, no brand</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">No meta descriptions on any page</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">No JSON-LD structured data (no LocalBusiness, no RealEstateAgent, no Review schema)</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">No llms.txt &mdash; invisible to AI assistants</span>
+        </div>
+        <div class="issue-row warning">
+          <span class="issue-badge warn">WARN</span>
+          <span class="issue-text">Yoast SEO installed but barely configured &mdash; OG titles are generic</span>
+        </div>
+        <div class="issue-row warning">
+          <span class="issue-badge warn">WARN</span>
+          <span class="issue-text">Blog stale &mdash; last content appears to be from 2024</span>
+        </div>
+        <div class="issue-row warning">
+          <span class="issue-badge warn">WARN</span>
+          <span class="issue-text">Sitemap last modified June 2024</span>
+        </div>
+        <div class="issue-row ok">
+          <span class="issue-badge pass">PASS</span>
+          <span class="issue-text">SSL certificate active (HTTPS)</span>
+        </div>
+        <div class="issue-row ok">
+          <span class="issue-badge pass">PASS</span>
+          <span class="issue-text">XML sitemap exists</span>
+        </div>
+        <div class="issue-row ok">
+          <span class="issue-badge pass">PASS</span>
+          <span class="issue-text">WordPress + Yoast SEO stack (fixable foundation)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Visibility -->
+    <div class="audit-section">
+      <div class="section-label">Search Visibility</div>
+      <div class="section-title">Google Results for "bartlett real estate agent"</div>
+      <div class="stats-bar three-col">
+        <div class="stat-cell">
+          <div class="number red">N/A</div>
+          <div class="label">Google Search<br>position</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number yellow">3rd-party only</div>
+          <div class="label">Name search<br>presence</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">None</div>
+          <div class="label">AI assistant<br>mentions</div>
+        </div>
+      </div>
+      <div class="issue-grid" style="margin-top:1.25rem">
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">Does not appear in Google results for "bartlett real estate agent" &mdash; Zillow, FastExpert, Angi, US News dominate</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">Not in any "best real estate agents in Bartlett IL" list</span>
+        </div>
+        <div class="issue-row warning">
+          <span class="issue-badge warn">WARN</span>
+          <span class="issue-text">Name search finds her on Zillow, Homes.com, Facebook, LinkedIn &mdash; but her own site is not the authority</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">ChatGPT, Gemini, and Siri do not mention Erin Vondra for any Bartlett real estate query</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI Visibility -->
+    <div class="audit-section">
+      <div class="section-label">AI Visibility</div>
+      <div class="section-title">Will AI Recommend Erin Vondra?</div>
+      <div class="stats-bar">
+        <div class="stat-cell">
+          <div class="number red">No</div>
+          <div class="label">ChatGPT</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">No</div>
+          <div class="label">Gemini</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">No</div>
+          <div class="label">Siri</div>
+        </div>
+        <div class="stat-cell">
+          <div class="number red">No</div>
+          <div class="label">Perplexity</div>
+        </div>
+      </div>
+      <div class="issue-grid" style="margin-top:1.25rem">
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">No llms.txt file &mdash; AI crawlers have no structured content to index</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">No structured data for AI to parse (testimonials, services, credentials)</span>
+        </div>
+        <div class="issue-row critical">
+          <span class="issue-badge fail">FAIL</span>
+          <span class="issue-text">Stale content signals low authority &mdash; AI models deprioritize inactive sites</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Verdict -->
+    <div class="verdict-box">
+      <div class="verdict-title">Ideal Findable.vip Candidate</div>
+      <div class="verdict-text">
+        Erin Vondra has been a licensed Illinois Realtor since 2011 with real client testimonials and a legitimate business — but her website is virtually invisible to both Google and AI assistants. She doesn't rank for her primary keyword, has no structured data, no meta descriptions, and zero AI visibility. Every one of these problems is fixable with Findable.vip services. This is a high-impact, low-lift engagement.
+      </div>
+    </div>
+
+    <div class="findable-footer">
+      Prepared by <a href="https://findable.vip">findable.vip</a> &mdash; SEO & AI Visibility for Small Business
+    </div>
+
+  </div>
+</body>
+</html>
