@@ -32,9 +32,9 @@ PROPERTIES = {
     'nwpiano': 'sc-domain:nwpianolessons.com'
 }
 
-# Date range: last 28 days (GSC data has ~3 day lag)
+# Date range: last 3 months (matches GSC default view, with ~3 day lag)
 end_date = datetime.now() - timedelta(days=3)
-start_date = end_date - timedelta(days=28)
+start_date = end_date - timedelta(days=90)
 
 def fetch_search_performance(site_url):
     """Fetch aggregate search performance for a property."""
