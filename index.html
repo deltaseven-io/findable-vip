@@ -1629,6 +1629,38 @@
       });
     }, { threshold: 0.5 });
     document.querySelectorAll('[data-target]').forEach(el => counterObserver.observe(el));
+
+    // LIVE GSC DATA
+    fetch('data/gsc-live.json')
+      .then(r => r.json())
+      .then(data => {
+        function fmt(n) {
+          return typeof n === 'number' ? n.toLocaleString('en-US') : n;
+        }
+        if (data.d7) {
+          const d = data.d7;
+          document.getElementById('d7-impressions').textContent = fmt(d.impressions);
+          document.getElementById('d7-clicks').textContent = fmt(d.clicks);
+          document.getElementById('d7-position').textContent = d.position;
+          if (document.getElementById('d7-indexed') && d.indexed) {
+            document.getElementById('d7-indexed').textContent = fmt(d.indexed);
+          }
+        }
+        if (data.nwpiano) {
+          const n = data.nwpiano;
+          document.getElementById('nwpiano-impressions').textContent = fmt(n.impressions);
+          document.getElementById('nwpiano-clicks').textContent = fmt(n.clicks);
+          document.getElementById('nwpiano-position').textContent = n.position;
+          if (document.getElementById('nwpiano-indexed') && n.indexed) {
+            document.getElementById('nwpiano-indexed').textContent = fmt(n.indexed);
+          }
+        }
+        if (data.updated) {
+          const dateEls = [document.getElementById('d7-date'), document.getElementById('nwpiano-date')];
+          dateEls.forEach(el => { if (el) el.textContent = data.updated; });
+        }
+      })
+      .catch(() => { /* silently fall back to hardcoded values */ });
   </script>
 
 </body>
