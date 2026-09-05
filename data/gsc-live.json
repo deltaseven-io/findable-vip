@@ -1,12 +1,12 @@
 {
-  "updated": "September 4, 2026",
+  "updated": "September 5, 2026",
   "period": {
-    "start": "2026-06-03",
-    "end": "2026-09-01"
+    "start": "2026-06-04",
+    "end": "2026-09-02"
   },
   "d7": {
-    "impressions": 15100,
-    "clicks": 36,
+    "impressions": 15235,
+    "clicks": 38,
     "ctr": 0.2,
     "position": 11.9,
     "topQueries": [
@@ -17,7 +17,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 706,
+        "impressions": 709,
         "clicks": 2
       },
       {
