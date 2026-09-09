@@ -26,24 +26,31 @@ credentials = service_account.Credentials.from_service_account_info(
 
 service = build('searchconsole', 'v1', credentials=credentials)
 
-# Properties to query
+# Properties to query — each with its own date window
+# D7: baseline is from Feb 2026, so use 90-day window to show cumulative growth
+# NW Piano: baseline is from Aug 29, so use 28-day window for apples-to-apples
+end_date = datetime.now() - timedelta(days=3)
+
 PROPERTIES = {
-    'd7': 'sc-domain:deltaseven.io',
-    'nwpiano': 'sc-domain:nwpianolessons.com'
+    'd7': {
+        'site_url': 'sc-domain:deltaseven.io',
+        'days': 90,
+    },
+    'nwpiano': {
+        'site_url': 'sc-domain:nwpianolessons.com',
+        'days': 28,
+    },
 }
 
-# Date range: last 28 days (matches baseline snapshot window, with ~3 day lag)
-end_date = datetime.now() - timedelta(days=3)
-start_date = end_date - timedelta(days=28)
 
-def fetch_search_performance(site_url):
+def fetch_search_performance(site_url, start, end):
     """Fetch aggregate search performance for a property."""
     try:
         response = service.searchanalytics().query(
             siteUrl=site_url,
             body={
-                'startDate': start_date.strftime('%Y-%m-%d'),
-                'endDate': end_date.strftime('%Y-%m-%d'),
+                'startDate': start.strftime('%Y-%m-%d'),
+                'endDate': end.strftime('%Y-%m-%d'),
                 'dimensions': [],
                 'rowLimit': 1
             }
@@ -81,14 +88,14 @@ def fetch_indexed_pages(site_url):
         return None
 
 
-def fetch_top_queries(site_url, limit=5):
+def fetch_top_queries(site_url, start, end, limit=5):
     """Fetch top search queries."""
     try:
         response = service.searchanalytics().query(
             siteUrl=site_url,
             body={
-                'startDate': start_date.strftime('%Y-%m-%d'),
-                'endDate': end_date.strftime('%Y-%m-%d'),
+                'startDate': start.strftime('%Y-%m-%d'),
+                'endDate': end.strftime('%Y-%m-%d'),
                 'dimensions': ['query'],
                 'rowLimit': limit,
                 'orderBy': [{'fieldName': 'impressions', 'sortOrder': 'DESCENDING'}]
@@ -112,14 +119,13 @@ def fetch_top_queries(site_url, limit=5):
 # Build the output
 output = {
     'updated': datetime.now().strftime('%B %-d, %Y'),
-    'period': {
-        'start': start_date.strftime('%Y-%m-%d'),
-        'end': end_date.strftime('%Y-%m-%d')
-    }
 }
 
-for key, site_url in PROPERTIES.items():
-    perf = fetch_search_performance(site_url)
+for key, config in PROPERTIES.items():
+    site_url = config['site_url']
+    start_date = end_date - timedelta(days=config['days'])
+
+    perf = fetch_search_performance(site_url, start_date, end_date)
     indexed = fetch_indexed_pages(site_url)
 
     if perf is None:
@@ -127,6 +133,10 @@ for key, site_url in PROPERTIES.items():
         continue
 
     output[key] = {
+        'period': {
+            'start': start_date.strftime('%Y-%m-%d'),
+            'end': end_date.strftime('%Y-%m-%d'),
+        },
         'impressions': perf['impressions'],
         'clicks': perf['clicks'],
         'ctr': perf['ctr'],
@@ -137,7 +147,7 @@ for key, site_url in PROPERTIES.items():
         output[key]['indexed'] = indexed
 
     # Top queries for context
-    output[key]['topQueries'] = fetch_top_queries(site_url)
+    output[key]['topQueries'] = fetch_top_queries(site_url, start_date, end_date)
 
 # Write JSON
 out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'gsc-live.json')
