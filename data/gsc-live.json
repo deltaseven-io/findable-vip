@@ -1,14 +1,14 @@
 {
-  "updated": "September 8, 2026",
+  "updated": "September 9, 2026",
   "period": {
-    "start": "2026-06-07",
-    "end": "2026-09-05"
+    "start": "2026-06-08",
+    "end": "2026-09-06"
   },
   "d7": {
-    "impressions": 16026,
+    "impressions": 16135,
     "clicks": 42,
     "ctr": 0.3,
-    "position": 11.9,
+    "position": 12.2,
     "topQueries": [
       {
         "query": "act tutors near me",
@@ -17,7 +17,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 823,
+        "impressions": 824,
         "clicks": 2
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1195,
+        "impressions": 1207,
         "clicks": 1
       },
       {
