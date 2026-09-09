@@ -1,23 +1,18 @@
 {
   "updated": "September 9, 2026",
   "period": {
-    "start": "2026-06-08",
+    "start": "2026-08-09",
     "end": "2026-09-06"
   },
   "d7": {
-    "impressions": 16135,
-    "clicks": 42,
+    "impressions": 12550,
+    "clicks": 35,
     "ctr": 0.3,
-    "position": 12.2,
+    "position": 11.6,
     "topQueries": [
       {
         "query": "act tutors near me",
         "impressions": 2,
-        "clicks": 2
-      },
-      {
-        "query": "math tutor near me",
-        "impressions": 824,
         "clicks": 2
       },
       {
@@ -27,12 +22,17 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1207,
+        "impressions": 968,
+        "clicks": 1
+      },
+      {
+        "query": "math tutor near me",
+        "impressions": 613,
         "clicks": 1
       },
       {
         "query": "\"mathnasium\" \"south elgin\"",
-        "impressions": 13,
+        "impressions": 7,
         "clicks": 0
       }
     ]
