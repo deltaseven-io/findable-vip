@@ -1,14 +1,14 @@
 {
-  "updated": "September 11, 2026",
+  "updated": "September 12, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-10",
-      "end": "2026-09-08"
+      "start": "2026-06-11",
+      "end": "2026-09-09"
     },
-    "impressions": 17264,
-    "clicks": 46,
+    "impressions": 17416,
+    "clicks": 52,
     "ctr": 0.3,
-    "position": 11.7,
+    "position": 11.8,
     "topQueries": [
       {
         "query": "act tutors near me",
@@ -17,7 +17,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 882,
+        "impressions": 888,
         "clicks": 2
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1277,
+        "impressions": 1326,
         "clicks": 1
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-11",
-      "end": "2026-09-08"
+      "start": "2026-08-12",
+      "end": "2026-09-09"
     },
-    "impressions": 200,
-    "clicks": 48,
-    "ctr": 24.0,
-    "position": 10.6,
+    "impressions": 205,
+    "clicks": 53,
+    "ctr": 25.9,
+    "position": 10.4,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -54,13 +54,13 @@
       },
       {
         "query": "in home piano lessons",
-        "impressions": 6,
-        "clicks": 6
+        "impressions": 8,
+        "clicks": 8
       },
       {
         "query": "piano lessons palatine",
-        "impressions": 9,
-        "clicks": 6
+        "impressions": 10,
+        "clicks": 7
       },
       {
         "query": "in home piano lessons near me",
@@ -68,7 +68,7 @@
         "clicks": 1
       },
       {
-        "query": "piano lessons arlington heights",
+        "query": "piano lessons",
         "impressions": 2,
         "clicks": 1
       }
