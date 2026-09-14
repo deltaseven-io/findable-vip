@@ -1,14 +1,14 @@
 {
-  "updated": "September 13, 2026",
+  "updated": "September 14, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-12",
-      "end": "2026-09-10"
+      "start": "2026-06-13",
+      "end": "2026-09-11"
     },
-    "impressions": 17508,
-    "clicks": 52,
+    "impressions": 18148,
+    "clicks": 53,
     "ctr": 0.3,
-    "position": 12.0,
+    "position": 11.8,
     "topQueries": [
       {
         "query": "act tutors near me",
@@ -17,7 +17,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 891,
+        "impressions": 1003,
         "clicks": 2
       },
       {
@@ -27,25 +27,25 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1336,
+        "impressions": 1519,
         "clicks": 1
       },
       {
         "query": "\"mathnasium\" \"south elgin\"",
-        "impressions": 13,
+        "impressions": 14,
         "clicks": 0
       }
     ]
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-13",
-      "end": "2026-09-10"
+      "start": "2026-08-14",
+      "end": "2026-09-11"
     },
-    "impressions": 206,
-    "clicks": 53,
-    "ctr": 25.7,
-    "position": 10.7,
+    "impressions": 210,
+    "clicks": 56,
+    "ctr": 26.7,
+    "position": 10.5,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -54,8 +54,8 @@
       },
       {
         "query": "in home piano lessons",
-        "impressions": 8,
-        "clicks": 8
+        "impressions": 10,
+        "clicks": 10
       },
       {
         "query": "piano lessons palatine",
