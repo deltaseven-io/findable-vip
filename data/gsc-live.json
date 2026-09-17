@@ -1,18 +1,18 @@
 {
-  "updated": "September 16, 2026",
+  "updated": "September 17, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-15",
-      "end": "2026-09-13"
+      "start": "2026-06-16",
+      "end": "2026-09-14"
     },
-    "impressions": 18351,
-    "clicks": 54,
+    "impressions": 18461,
+    "clicks": 56,
     "ctr": 0.3,
-    "position": 12.0,
+    "position": 12.3,
     "topQueries": [
       {
         "query": "math tutor near me",
-        "impressions": 1008,
+        "impressions": 1016,
         "clicks": 3
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1525,
+        "impressions": 1531,
         "clicks": 1
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-16",
-      "end": "2026-09-13"
+      "start": "2026-08-17",
+      "end": "2026-09-14"
     },
-    "impressions": 226,
-    "clicks": 59,
-    "ctr": 26.1,
-    "position": 12.6,
+    "impressions": 233,
+    "clicks": 64,
+    "ctr": 27.5,
+    "position": 12.8,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -54,13 +54,13 @@
       },
       {
         "query": "in home piano lessons",
-        "impressions": 10,
-        "clicks": 10
+        "impressions": 11,
+        "clicks": 11
       },
       {
         "query": "piano lessons palatine",
-        "impressions": 10,
-        "clicks": 7
+        "impressions": 13,
+        "clicks": 10
       },
       {
         "query": "in home piano lessons near me",
