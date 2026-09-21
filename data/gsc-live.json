@@ -1,18 +1,18 @@
 {
-  "updated": "September 20, 2026",
+  "updated": "September 21, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-19",
-      "end": "2026-09-17"
+      "start": "2026-06-20",
+      "end": "2026-09-18"
     },
-    "impressions": 18888,
-    "clicks": 60,
+    "impressions": 19487,
+    "clicks": 61,
     "ctr": 0.3,
-    "position": 12.3,
+    "position": 12.1,
     "topQueries": [
       {
         "query": "math tutor near me",
-        "impressions": 1078,
+        "impressions": 1192,
         "clicks": 3
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1642,
+        "impressions": 1798,
         "clicks": 2
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-20",
-      "end": "2026-09-17"
+      "start": "2026-08-21",
+      "end": "2026-09-18"
     },
-    "impressions": 252,
+    "impressions": 247,
     "clicks": 75,
-    "ctr": 29.8,
-    "position": 12.6,
+    "ctr": 30.4,
+    "position": 12.7,
     "topQueries": [
       {
         "query": "northwest piano",
