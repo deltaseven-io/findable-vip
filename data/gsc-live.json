@@ -1,14 +1,14 @@
 {
-  "updated": "September 22, 2026",
+  "updated": "September 23, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-21",
-      "end": "2026-09-19"
+      "start": "2026-06-22",
+      "end": "2026-09-20"
     },
-    "impressions": 19522,
-    "clicks": 62,
+    "impressions": 19585,
+    "clicks": 64,
     "ctr": 0.3,
-    "position": 12.1,
+    "position": 12.2,
     "topQueries": [
       {
         "query": "math tutor near me",
@@ -22,7 +22,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1800,
+        "impressions": 1804,
         "clicks": 2
       },
       {
@@ -31,21 +31,21 @@
         "clicks": 1
       },
       {
-        "query": "\"mathnasium\" \"south elgin\"",
-        "impressions": 14,
-        "clicks": 0
+        "query": "math tutors near me",
+        "impressions": 167,
+        "clicks": 1
       }
     ]
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-22",
-      "end": "2026-09-19"
+      "start": "2026-08-23",
+      "end": "2026-09-20"
     },
-    "impressions": 249,
+    "impressions": 236,
     "clicks": 76,
-    "ctr": 30.5,
-    "position": 12.8,
+    "ctr": 32.2,
+    "position": 13.4,
     "topQueries": [
       {
         "query": "northwest piano",
