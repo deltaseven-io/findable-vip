@@ -1,18 +1,18 @@
 {
-  "updated": "September 24, 2026",
+  "updated": "September 25, 2026",
   "d7": {
     "period": {
-      "start": "2026-06-23",
-      "end": "2026-09-21"
+      "start": "2026-06-24",
+      "end": "2026-09-22"
     },
-    "impressions": 19898,
-    "clicks": 67,
+    "impressions": 19953,
+    "clicks": 68,
     "ctr": 0.3,
     "position": 12.3,
     "topQueries": [
       {
         "query": "math tutor near me",
-        "impressions": 1259,
+        "impressions": 1263,
         "clicks": 3
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "query": "math tutor",
-        "impressions": 1862,
+        "impressions": 1863,
         "clicks": 2
       },
       {
@@ -39,17 +39,17 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-08-24",
-      "end": "2026-09-21"
+      "start": "2026-08-25",
+      "end": "2026-09-22"
     },
-    "impressions": 201,
+    "impressions": 200,
     "clicks": 75,
-    "ctr": 37.3,
-    "position": 15.2,
+    "ctr": 37.5,
+    "position": 15.5,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 20,
+        "impressions": 19,
         "clicks": 18
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "query": "piano lessons palatine",
-        "impressions": 13,
+        "impressions": 11,
         "clicks": 10
       },
       {
