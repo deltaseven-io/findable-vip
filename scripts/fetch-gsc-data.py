@@ -40,6 +40,10 @@ PROPERTIES = {
         'site_url': 'sc-domain:nwpianolessons.com',
         'days': 28,
     },
+    'ncpalmerpack': {
+        'site_url': 'https://ncpalmerpack.com/',
+        'days': 28,
+    },
 }
 
 

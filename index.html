@@ -1455,6 +1455,59 @@
         <div class="accordion-header">
           <div class="accordion-left">
             <div class="client-name-row">
+              <div class="client-name"><a href="https://ncpalmerpack.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">ncpalmerpack.com</a></div>
+              <div class="client-status active">Active</div>
+            </div>
+            <div class="client-type">Industrial Packaging — Addison, IL</div>
+          </div>
+          <div class="accordion-arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+        <div class="accordion-body">
+          <div class="accordion-desc">New site launched September 18, 2026 — full SEO, AEO, and structured data optimization. Palmer Packaging authorized rep serving nationwide from Addison, IL.</div>
+          <p class="stats-section-label">Baseline &mdash; September 30, 2026</p>
+          <div class="stats-bar mini baseline">
+            <div class="stat-cell">
+              <div class="number">0</div>
+              <div class="label">Impressions</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number">0</div>
+              <div class="label">Google clicks</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number">&mdash;</div>
+              <div class="label">Avg position</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number">0</div>
+              <div class="label">Pages indexed</div>
+            </div>
+          </div>
+          <p class="stats-section-label current">Data as of <span id="ncpalmerpack-date">September 30, 2026</span></p>
+          <div class="stats-bar mini current">
+            <div class="stat-cell">
+              <div class="number" id="ncpalmerpack-impressions">0</div>
+              <div class="label">Impressions</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="ncpalmerpack-clicks">0</div>
+              <div class="label">Google clicks</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="ncpalmerpack-position">&mdash;</div>
+              <div class="label">Avg position</div>
+            </div>
+            <div class="stat-cell">
+              <div class="number" id="ncpalmerpack-indexed">0</div>
+              <div class="label">Pages indexed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion reveal" onclick="this.classList.toggle('open')">
+        <div class="accordion-header">
+          <div class="accordion-left">
+            <div class="client-name-row">
               <div class="client-name"><a href="https://watermandan.com" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">watermandan.com</a></div>
               <div class="client-status soon">Coming soon</div>
             </div>
@@ -1655,8 +1708,17 @@
             document.getElementById('nwpiano-indexed').textContent = fmt(n.indexed);
           }
         }
+        if (data.ncpalmerpack) {
+          const p = data.ncpalmerpack;
+          document.getElementById('ncpalmerpack-impressions').textContent = fmt(p.impressions);
+          document.getElementById('ncpalmerpack-clicks').textContent = fmt(p.clicks);
+          document.getElementById('ncpalmerpack-position').textContent = p.position;
+          if (document.getElementById('ncpalmerpack-indexed') && p.indexed) {
+            document.getElementById('ncpalmerpack-indexed').textContent = fmt(p.indexed);
+          }
+        }
         if (data.updated) {
-          const dateEls = [document.getElementById('d7-date'), document.getElementById('nwpiano-date')];
+          const dateEls = [document.getElementById('d7-date'), document.getElementById('nwpiano-date'), document.getElementById('ncpalmerpack-date')];
           dateEls.forEach(el => { if (el) el.textContent = data.updated; });
         }
       })
