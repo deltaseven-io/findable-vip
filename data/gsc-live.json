@@ -1,9 +1,9 @@
 {
-  "updated": "October 3, 2026",
+  "updated": "October 4, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-02",
-      "end": "2026-09-30"
+      "start": "2026-07-03",
+      "end": "2026-10-01"
     },
     "impressions": 21196,
     "clicks": 81,
@@ -39,23 +39,23 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-02",
-      "end": "2026-09-30"
+      "start": "2026-09-03",
+      "end": "2026-10-01"
     },
-    "impressions": 141,
-    "clicks": 45,
-    "ctr": 31.9,
-    "position": 14.7,
+    "impressions": 131,
+    "clicks": 40,
+    "ctr": 30.5,
+    "position": 14.9,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 14,
-        "clicks": 12
+        "impressions": 12,
+        "clicks": 10
       },
       {
         "query": "in home piano lessons",
-        "impressions": 9,
-        "clicks": 9
+        "impressions": 8,
+        "clicks": 8
       },
       {
         "query": "piano lessons palatine",
