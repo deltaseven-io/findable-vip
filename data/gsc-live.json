@@ -1,9 +1,9 @@
 {
-  "updated": "October 9, 2026",
+  "updated": "October 10, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-08",
-      "end": "2026-10-06"
+      "start": "2026-07-09",
+      "end": "2026-10-07"
     },
     "impressions": 22673,
     "clicks": 84,
@@ -39,17 +39,17 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-08",
-      "end": "2026-10-06"
+      "start": "2026-09-09",
+      "end": "2026-10-07"
     },
-    "impressions": 123,
+    "impressions": 120,
     "clicks": 33,
-    "ctr": 26.8,
-    "position": 18.0,
+    "ctr": 27.5,
+    "position": 17.1,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 10,
+        "impressions": 9,
         "clicks": 8
       },
       {
