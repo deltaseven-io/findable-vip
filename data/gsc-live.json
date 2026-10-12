@@ -1,24 +1,24 @@
 {
-  "updated": "October 11, 2026",
+  "updated": "October 12, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-10",
-      "end": "2026-10-08"
+      "start": "2026-07-11",
+      "end": "2026-10-09"
     },
-    "impressions": 22875,
-    "clicks": 86,
+    "impressions": 23538,
+    "clicks": 89,
     "ctr": 0.4,
-    "position": 11.8,
+    "position": 11.6,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2607,
-        "clicks": 4
+        "impressions": 2797,
+        "clicks": 5
       },
       {
         "query": "math tutor near me",
-        "impressions": 1871,
-        "clicks": 3
+        "impressions": 1996,
+        "clicks": 4
       },
       {
         "query": "act tutors near me",
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 124,
+        "impressions": 137,
         "clicks": 2
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-10",
-      "end": "2026-10-08"
+      "start": "2026-09-11",
+      "end": "2026-10-09"
     },
-    "impressions": 128,
+    "impressions": 130,
     "clicks": 28,
-    "ctr": 21.9,
-    "position": 16.3,
+    "ctr": 21.5,
+    "position": 15.7,
     "topQueries": [
       {
         "query": "northwest piano",
