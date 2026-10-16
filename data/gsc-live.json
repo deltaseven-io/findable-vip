@@ -1,23 +1,23 @@
 {
-  "updated": "October 15, 2026",
+  "updated": "October 16, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-14",
-      "end": "2026-10-12"
+      "start": "2026-07-15",
+      "end": "2026-10-13"
     },
-    "impressions": 23894,
-    "clicks": 90,
+    "impressions": 24006,
+    "clicks": 92,
     "ctr": 0.4,
-    "position": 11.6,
+    "position": 11.8,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2879,
+        "impressions": 2881,
         "clicks": 5
       },
       {
         "query": "math tutor near me",
-        "impressions": 2053,
+        "impressions": 2058,
         "clicks": 4
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 137,
+        "impressions": 138,
         "clicks": 2
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-14",
-      "end": "2026-10-12"
+      "start": "2026-09-15",
+      "end": "2026-10-13"
     },
-    "impressions": 124,
-    "clicks": 26,
-    "ctr": 21.0,
-    "position": 11.8,
+    "impressions": 127,
+    "clicks": 22,
+    "ctr": 17.3,
+    "position": 11.5,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -58,11 +58,6 @@
         "clicks": 3
       },
       {
-        "query": "piano lessons palatine",
-        "impressions": 3,
-        "clicks": 3
-      },
-      {
         "query": "piano lessons",
         "impressions": 4,
         "clicks": 2
@@ -71,6 +66,11 @@
         "query": "piano lessons palatine il",
         "impressions": 1,
         "clicks": 1
+      },
+      {
+        "query": "adult piano lessons near me",
+        "impressions": 2,
+        "clicks": 0
       }
     ]
   }
