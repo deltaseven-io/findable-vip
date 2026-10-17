@@ -41,7 +41,7 @@ PROPERTIES = {
         'days': 28,
     },
     'ncpalmerpack': {
-        'site_url': 'sc-domain:ncpalmerpack.com',
+        'site_url': 'https://ncpalmerpack.com/',
         'days': 28,
     },
 }
