@@ -1,14 +1,14 @@
 {
-  "updated": "October 19, 2026",
+  "updated": "October 20, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-18",
-      "end": "2026-10-16"
+      "start": "2026-07-19",
+      "end": "2026-10-17"
     },
-    "impressions": 24756,
+    "impressions": 24817,
     "clicks": 95,
     "ctr": 0.4,
-    "position": 12.1,
+    "position": 12.2,
     "topQueries": [
       {
         "query": "math tutor",
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-18",
-      "end": "2026-10-16"
+      "start": "2026-09-19",
+      "end": "2026-10-17"
     },
-    "impressions": 104,
+    "impressions": 101,
     "clicks": 12,
-    "ctr": 11.5,
-    "position": 11.8,
+    "ctr": 11.9,
+    "position": 12.0,
     "topQueries": [
       {
         "query": "in home piano lessons",
@@ -76,17 +76,17 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-18",
-      "end": "2026-10-16"
+      "start": "2026-09-19",
+      "end": "2026-10-17"
     },
-    "impressions": 61,
-    "clicks": 8,
-    "ctr": 13.1,
-    "position": 25.3,
+    "impressions": 71,
+    "clicks": 9,
+    "ctr": 12.7,
+    "position": 28.2,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
-        "impressions": 3,
+        "impressions": 5,
         "clicks": 0
       },
       {
@@ -96,17 +96,17 @@
       },
       {
         "query": "bulk plastic pallets elgin",
-        "impressions": 2,
+        "impressions": 3,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets elk grove village",
-        "impressions": 1,
+        "impressions": 2,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets itasca",
-        "impressions": 2,
+        "impressions": 3,
         "clicks": 0
       }
     ]
