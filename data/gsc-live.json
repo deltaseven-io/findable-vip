@@ -1,23 +1,23 @@
 {
-  "updated": "October 23, 2026",
+  "updated": "October 24, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-22",
-      "end": "2026-10-20"
+      "start": "2026-07-23",
+      "end": "2026-10-21"
     },
-    "impressions": 25168,
+    "impressions": 25266,
     "clicks": 95,
     "ctr": 0.4,
-    "position": 12.8,
+    "position": 12.9,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3024,
+        "impressions": 3025,
         "clicks": 5
       },
       {
         "query": "math tutor near me",
-        "impressions": 2185,
+        "impressions": 2190,
         "clicks": 5
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 149,
+        "impressions": 151,
         "clicks": 2
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-22",
-      "end": "2026-10-20"
+      "start": "2026-09-23",
+      "end": "2026-10-21"
     },
-    "impressions": 101,
+    "impressions": 99,
     "clicks": 11,
-    "ctr": 10.9,
-    "position": 11.7,
+    "ctr": 11.1,
+    "position": 11.9,
     "topQueries": [
       {
         "query": "in home piano lessons",
@@ -58,11 +58,6 @@
         "clicks": 1
       },
       {
-        "query": "adult piano lessons near me",
-        "impressions": 2,
-        "clicks": 0
-      },
-      {
         "query": "piano instructors near me",
         "impressions": 1,
         "clicks": 0
@@ -71,18 +66,23 @@
         "query": "piano lessons",
         "impressions": 2,
         "clicks": 0
+      },
+      {
+        "query": "piano lessons for kids chicago",
+        "impressions": 2,
+        "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-22",
-      "end": "2026-10-20"
+      "start": "2026-09-23",
+      "end": "2026-10-21"
     },
-    "impressions": 118,
+    "impressions": 129,
     "clicks": 9,
-    "ctr": 7.6,
-    "position": 32.9,
+    "ctr": 7.0,
+    "position": 33.1,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -96,17 +96,17 @@
       },
       {
         "query": "bulk plastic pallets elgin",
-        "impressions": 6,
+        "impressions": 7,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets elk grove village",
-        "impressions": 5,
+        "impressions": 6,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets itasca",
-        "impressions": 5,
+        "impressions": 6,
         "clicks": 0
       }
     ]
