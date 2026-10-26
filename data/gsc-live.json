@@ -1,23 +1,23 @@
 {
-  "updated": "October 25, 2026",
+  "updated": "October 26, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-24",
-      "end": "2026-10-22"
+      "start": "2026-07-25",
+      "end": "2026-10-23"
     },
-    "impressions": 25358,
-    "clicks": 96,
+    "impressions": 25560,
+    "clicks": 99,
     "ctr": 0.4,
-    "position": 13.1,
+    "position": 13.2,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3027,
+        "impressions": 3034,
         "clicks": 5
       },
       {
         "query": "math tutor near me",
-        "impressions": 2195,
+        "impressions": 2213,
         "clicks": 5
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 151,
+        "impressions": 170,
         "clicks": 2
       },
       {
@@ -39,18 +39,18 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-24",
-      "end": "2026-10-22"
+      "start": "2026-09-25",
+      "end": "2026-10-23"
     },
-    "impressions": 102,
-    "clicks": 12,
-    "ctr": 11.8,
-    "position": 11.7,
+    "impressions": 106,
+    "clicks": 13,
+    "ctr": 12.3,
+    "position": 12.3,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 11,
-        "clicks": 2
+        "impressions": 12,
+        "clicks": 3
       },
       {
         "query": "in home piano lessons",
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-24",
-      "end": "2026-10-22"
+      "start": "2026-09-25",
+      "end": "2026-10-23"
     },
-    "impressions": 136,
+    "impressions": 143,
     "clicks": 9,
-    "ctr": 6.6,
-    "position": 33.9,
+    "ctr": 6.3,
+    "position": 35.1,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -101,12 +101,12 @@
       },
       {
         "query": "bulk plastic pallets elk grove village",
-        "impressions": 7,
+        "impressions": 8,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets itasca",
-        "impressions": 7,
+        "impressions": 8,
         "clicks": 0
       }
     ]
