@@ -1,14 +1,14 @@
 {
-  "updated": "October 26, 2026",
+  "updated": "October 27, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-25",
-      "end": "2026-10-23"
+      "start": "2026-07-26",
+      "end": "2026-10-24"
     },
-    "impressions": 25560,
+    "impressions": 25614,
     "clicks": 99,
     "ctr": 0.4,
-    "position": 13.2,
+    "position": 13.3,
     "topQueries": [
       {
         "query": "math tutor",
@@ -17,7 +17,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 2213,
+        "impressions": 2214,
         "clicks": 5
       },
       {
@@ -39,18 +39,18 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-25",
-      "end": "2026-10-23"
+      "start": "2026-09-26",
+      "end": "2026-10-24"
     },
-    "impressions": 106,
-    "clicks": 13,
-    "ctr": 12.3,
-    "position": 12.3,
+    "impressions": 107,
+    "clicks": 14,
+    "ctr": 13.1,
+    "position": 12.6,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 12,
-        "clicks": 3
+        "impressions": 13,
+        "clicks": 4
       },
       {
         "query": "in home piano lessons",
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-25",
-      "end": "2026-10-23"
+      "start": "2026-09-26",
+      "end": "2026-10-24"
     },
-    "impressions": 143,
+    "impressions": 152,
     "clicks": 9,
-    "ctr": 6.3,
-    "position": 35.1,
+    "ctr": 5.9,
+    "position": 35.7,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -96,17 +96,17 @@
       },
       {
         "query": "bulk plastic pallets elgin",
-        "impressions": 8,
+        "impressions": 9,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets elk grove village",
-        "impressions": 8,
+        "impressions": 9,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets itasca",
-        "impressions": 8,
+        "impressions": 9,
         "clicks": 0
       }
     ]
