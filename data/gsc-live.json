@@ -1,23 +1,23 @@
 {
-  "updated": "October 27, 2026",
+  "updated": "October 28, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-26",
-      "end": "2026-10-24"
+      "start": "2026-07-27",
+      "end": "2026-10-25"
     },
-    "impressions": 25614,
-    "clicks": 99,
+    "impressions": 25695,
+    "clicks": 100,
     "ctr": 0.4,
-    "position": 13.3,
+    "position": 13.4,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3034,
+        "impressions": 3040,
         "clicks": 5
       },
       {
         "query": "math tutor near me",
-        "impressions": 2214,
+        "impressions": 2217,
         "clicks": 5
       },
       {
@@ -39,17 +39,17 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-26",
-      "end": "2026-10-24"
+      "start": "2026-09-27",
+      "end": "2026-10-25"
     },
-    "impressions": 107,
+    "impressions": 109,
     "clicks": 14,
-    "ctr": 13.1,
-    "position": 12.6,
+    "ctr": 12.8,
+    "position": 13.7,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 13,
+        "impressions": 12,
         "clicks": 4
       },
       {
@@ -69,24 +69,29 @@
       },
       {
         "query": "piano lessons for kids chicago",
-        "impressions": 2,
+        "impressions": 4,
         "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-26",
-      "end": "2026-10-24"
+      "start": "2026-09-27",
+      "end": "2026-10-25"
     },
-    "impressions": 152,
+    "impressions": 162,
     "clicks": 9,
-    "ctr": 5.9,
-    "position": 35.7,
+    "ctr": 5.6,
+    "position": 36.6,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
         "impressions": 7,
+        "clicks": 0
+      },
+      {
+        "query": "bubble wrap illinois",
+        "impressions": 2,
         "clicks": 0
       },
       {
@@ -96,17 +101,12 @@
       },
       {
         "query": "bulk plastic pallets elgin",
-        "impressions": 9,
+        "impressions": 10,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets elk grove village",
-        "impressions": 9,
-        "clicks": 0
-      },
-      {
-        "query": "bulk plastic pallets itasca",
-        "impressions": 9,
+        "impressions": 10,
         "clicks": 0
       }
     ]
