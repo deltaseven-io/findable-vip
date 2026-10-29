@@ -1,23 +1,23 @@
 {
-  "updated": "October 28, 2026",
+  "updated": "October 29, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-27",
-      "end": "2026-10-25"
+      "start": "2026-07-28",
+      "end": "2026-10-26"
     },
-    "impressions": 25695,
-    "clicks": 100,
+    "impressions": 25770,
+    "clicks": 101,
     "ctr": 0.4,
-    "position": 13.4,
+    "position": 13.5,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3040,
-        "clicks": 5
+        "impressions": 3047,
+        "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2217,
+        "impressions": 2226,
         "clicks": 5
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 170,
+        "impressions": 177,
         "clicks": 2
       },
       {
@@ -39,18 +39,18 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-27",
-      "end": "2026-10-25"
+      "start": "2026-09-28",
+      "end": "2026-10-26"
     },
-    "impressions": 109,
-    "clicks": 14,
-    "ctr": 12.8,
-    "position": 13.7,
+    "impressions": 111,
+    "clicks": 15,
+    "ctr": 13.5,
+    "position": 13.3,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 12,
-        "clicks": 4
+        "impressions": 14,
+        "clicks": 5
       },
       {
         "query": "in home piano lessons",
@@ -64,7 +64,7 @@
       },
       {
         "query": "piano lessons",
-        "impressions": 2,
+        "impressions": 1,
         "clicks": 0
       },
       {
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-27",
-      "end": "2026-10-25"
+      "start": "2026-09-28",
+      "end": "2026-10-26"
     },
-    "impressions": 162,
+    "impressions": 188,
     "clicks": 9,
-    "ctr": 5.6,
-    "position": 36.6,
+    "ctr": 4.8,
+    "position": 33.5,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
