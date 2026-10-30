@@ -1,23 +1,23 @@
 {
-  "updated": "October 29, 2026",
+  "updated": "October 30, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-28",
-      "end": "2026-10-26"
+      "start": "2026-07-29",
+      "end": "2026-10-27"
     },
-    "impressions": 25770,
-    "clicks": 101,
+    "impressions": 25827,
+    "clicks": 102,
     "ctr": 0.4,
     "position": 13.5,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3047,
+        "impressions": 3053,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2226,
+        "impressions": 2227,
         "clicks": 5
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 177,
+        "impressions": 182,
         "clicks": 2
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-28",
-      "end": "2026-10-26"
+      "start": "2026-09-29",
+      "end": "2026-10-27"
     },
-    "impressions": 111,
-    "clicks": 15,
-    "ctr": 13.5,
-    "position": 13.3,
+    "impressions": 115,
+    "clicks": 16,
+    "ctr": 13.9,
+    "position": 12.8,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -58,12 +58,12 @@
         "clicks": 1
       },
       {
-        "query": "piano instructors near me",
+        "query": "elk grove piano lessons",
         "impressions": 1,
         "clicks": 0
       },
       {
-        "query": "piano lessons",
+        "query": "piano instructors near me",
         "impressions": 1,
         "clicks": 0
       },
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-28",
-      "end": "2026-10-26"
+      "start": "2026-09-29",
+      "end": "2026-10-27"
     },
-    "impressions": 188,
+    "impressions": 194,
     "clicks": 9,
-    "ctr": 4.8,
-    "position": 33.5,
+    "ctr": 4.6,
+    "position": 33.2,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -95,17 +95,17 @@
         "clicks": 0
       },
       {
+        "query": "bubble wrap manufacturers near me",
+        "impressions": 1,
+        "clicks": 0
+      },
+      {
         "query": "bubble wrap suppliers near me",
         "impressions": 1,
         "clicks": 0
       },
       {
         "query": "bulk plastic pallets elgin",
-        "impressions": 10,
-        "clicks": 0
-      },
-      {
-        "query": "bulk plastic pallets elk grove village",
         "impressions": 10,
         "clicks": 0
       }
