@@ -1,23 +1,23 @@
 {
-  "updated": "October 31, 2026",
+  "updated": "November 1, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-30",
-      "end": "2026-10-28"
+      "start": "2026-07-31",
+      "end": "2026-10-29"
     },
-    "impressions": 25887,
-    "clicks": 106,
+    "impressions": 25829,
+    "clicks": 107,
     "ctr": 0.4,
-    "position": 13.5,
+    "position": 13.4,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3054,
+        "impressions": 3055,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2228,
+        "impressions": 2231,
         "clicks": 6
       },
       {
@@ -39,23 +39,28 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-09-30",
-      "end": "2026-10-28"
+      "start": "2026-10-01",
+      "end": "2026-10-29"
     },
-    "impressions": 115,
-    "clicks": 16,
-    "ctr": 13.9,
-    "position": 12.7,
+    "impressions": 119,
+    "clicks": 17,
+    "ctr": 14.3,
+    "position": 12.0,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 14,
-        "clicks": 5
+        "impressions": 15,
+        "clicks": 6
       },
       {
         "query": "in home piano lessons",
         "impressions": 1,
         "clicks": 1
+      },
+      {
+        "query": "best music school in schaumburg il with prices",
+        "impressions": 1,
+        "clicks": 0
       },
       {
         "query": "elk grove piano lessons",
@@ -66,27 +71,22 @@
         "query": "piano instructors near me",
         "impressions": 1,
         "clicks": 0
-      },
-      {
-        "query": "piano lessons for kids chicago",
-        "impressions": 4,
-        "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-09-30",
-      "end": "2026-10-28"
+      "start": "2026-10-01",
+      "end": "2026-10-29"
     },
-    "impressions": 210,
-    "clicks": 10,
-    "ctr": 4.8,
-    "position": 30.9,
+    "impressions": 227,
+    "clicks": 14,
+    "ctr": 6.2,
+    "position": 30.1,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
-        "impressions": 7,
+        "impressions": 10,
         "clicks": 0
       },
       {
