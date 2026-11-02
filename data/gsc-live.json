@@ -1,23 +1,23 @@
 {
-  "updated": "November 1, 2026",
+  "updated": "November 2, 2026",
   "d7": {
     "period": {
-      "start": "2026-07-31",
-      "end": "2026-10-29"
+      "start": "2026-08-01",
+      "end": "2026-10-30"
     },
-    "impressions": 25829,
-    "clicks": 107,
+    "impressions": 25081,
+    "clicks": 109,
     "ctr": 0.4,
     "position": 13.4,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 3055,
+        "impressions": 2899,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2231,
+        "impressions": 2097,
         "clicks": 6
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-01",
-      "end": "2026-10-29"
+      "start": "2026-10-02",
+      "end": "2026-10-30"
     },
-    "impressions": 119,
-    "clicks": 17,
-    "ctr": 14.3,
-    "position": 12.0,
+    "impressions": 120,
+    "clicks": 18,
+    "ctr": 15.0,
+    "position": 11.5,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -76,17 +76,17 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-01",
-      "end": "2026-10-29"
+      "start": "2026-10-02",
+      "end": "2026-10-30"
     },
-    "impressions": 227,
-    "clicks": 14,
-    "ctr": 6.2,
-    "position": 30.1,
+    "impressions": 238,
+    "clicks": 15,
+    "ctr": 6.3,
+    "position": 29.6,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
-        "impressions": 10,
+        "impressions": 12,
         "clicks": 0
       },
       {
