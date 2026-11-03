@@ -1,23 +1,23 @@
 {
-  "updated": "November 2, 2026",
+  "updated": "November 3, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-01",
-      "end": "2026-10-30"
+      "start": "2026-08-02",
+      "end": "2026-10-31"
     },
-    "impressions": 25081,
-    "clicks": 109,
+    "impressions": 25012,
+    "clicks": 110,
     "ctr": 0.4,
-    "position": 13.4,
+    "position": 13.3,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2899,
+        "impressions": 2897,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2097,
+        "impressions": 2096,
         "clicks": 6
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-02",
-      "end": "2026-10-30"
+      "start": "2026-10-03",
+      "end": "2026-10-31"
     },
-    "impressions": 120,
+    "impressions": 126,
     "clicks": 18,
-    "ctr": 15.0,
-    "position": 11.5,
+    "ctr": 14.3,
+    "position": 12.0,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-02",
-      "end": "2026-10-30"
+      "start": "2026-10-03",
+      "end": "2026-10-31"
     },
-    "impressions": 238,
+    "impressions": 240,
     "clicks": 15,
-    "ctr": 6.3,
-    "position": 29.6,
+    "ctr": 6.2,
+    "position": 29.8,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -91,7 +91,7 @@
       },
       {
         "query": "bubble wrap illinois",
-        "impressions": 2,
+        "impressions": 3,
         "clicks": 0
       },
       {
