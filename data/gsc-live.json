@@ -1,23 +1,23 @@
 {
-  "updated": "November 3, 2026",
+  "updated": "November 4, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-02",
-      "end": "2026-10-31"
+      "start": "2026-08-03",
+      "end": "2026-11-01"
     },
-    "impressions": 25012,
+    "impressions": 24089,
     "clicks": 110,
-    "ctr": 0.4,
-    "position": 13.3,
+    "ctr": 0.5,
+    "position": 13.6,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2897,
+        "impressions": 2887,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2096,
+        "impressions": 2093,
         "clicks": 6
       },
       {
@@ -39,13 +39,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-03",
-      "end": "2026-10-31"
+      "start": "2026-10-04",
+      "end": "2026-11-01"
     },
-    "impressions": 126,
-    "clicks": 18,
-    "ctr": 14.3,
-    "position": 12.0,
+    "impressions": 128,
+    "clicks": 19,
+    "ctr": 14.8,
+    "position": 11.8,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -68,7 +68,7 @@
         "clicks": 0
       },
       {
-        "query": "piano instructors near me",
+        "query": "piano classes",
         "impressions": 1,
         "clicks": 0
       }
@@ -76,13 +76,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-03",
-      "end": "2026-10-31"
+      "start": "2026-10-04",
+      "end": "2026-11-01"
     },
-    "impressions": 240,
+    "impressions": 245,
     "clicks": 15,
-    "ctr": 6.2,
-    "position": 29.8,
+    "ctr": 6.1,
+    "position": 29.7,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
@@ -91,7 +91,7 @@
       },
       {
         "query": "bubble wrap illinois",
-        "impressions": 3,
+        "impressions": 4,
         "clicks": 0
       },
       {
