@@ -41,7 +41,7 @@ PROPERTIES = {
         'days': 28,
     },
     'ncpalmerpack': {
-        'site_url': 'https://ncpalmerpack.com/',
+        'site_url': 'sc-domain:ncpalmerpack.com',
         'days': 28,
     },
 }
@@ -75,18 +75,25 @@ def fetch_search_performance(site_url, start, end):
 
 
 def fetch_indexed_pages(site_url):
-    """Fetch indexed page count from sitemaps endpoint."""
+    """Fetch indexed page count from sitemaps endpoint, fallback to submitted count."""
     try:
         response = service.sitemaps().list(siteUrl=site_url).execute()
         total_indexed = 0
+        total_submitted = 0
         if 'sitemap' in response:
             for sitemap in response['sitemap']:
-                # Get the number of indexed URLs from sitemap info
                 if 'contents' in sitemap:
                     for content in sitemap['contents']:
                         if content.get('indexed'):
                             total_indexed += int(content['indexed'])
-        return total_indexed if total_indexed > 0 else None
+                        if content.get('submitted'):
+                            total_submitted += int(content['submitted'])
+        if total_indexed > 0:
+            return total_indexed
+        # Fallback: use submitted count (pages in sitemap) when indexed isn't reported
+        if total_submitted > 0:
+            return total_submitted
+        return None
     except Exception as e:
         print(f"Error fetching sitemaps for {site_url}: {e}")
         return None

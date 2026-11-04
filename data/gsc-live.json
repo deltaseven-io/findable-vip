@@ -83,6 +83,7 @@
     "clicks": 15,
     "ctr": 6.1,
     "position": 29.7,
+    "indexed": 14,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
