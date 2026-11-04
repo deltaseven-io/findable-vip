@@ -9,6 +9,7 @@
     "clicks": 110,
     "ctr": 0.5,
     "position": 13.6,
+    "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
@@ -46,6 +47,7 @@
     "clicks": 19,
     "ctr": 14.8,
     "position": 11.8,
+    "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
@@ -83,7 +85,7 @@
     "clicks": 15,
     "ctr": 6.1,
     "position": 29.7,
-    "indexed": 14,
+    "indexed": 15,
     "topQueries": [
       {
         "query": "\"vendor managed inventory\"",
