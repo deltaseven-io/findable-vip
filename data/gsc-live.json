@@ -1,14 +1,14 @@
 {
-  "updated": "November 5, 2026",
+  "updated": "November 6, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-04",
-      "end": "2026-11-02"
+      "start": "2026-08-05",
+      "end": "2026-11-03"
     },
-    "impressions": 23957,
-    "clicks": 111,
+    "impressions": 23208,
+    "clicks": 114,
     "ctr": 0.5,
-    "position": 13.4,
+    "position": 13.7,
     "indexed": 13,
     "topQueries": [
       {
@@ -18,12 +18,12 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 2087,
+        "impressions": 2084,
         "clicks": 5
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 186,
+        "impressions": 185,
         "clicks": 3
       },
       {
@@ -40,18 +40,18 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-05",
-      "end": "2026-11-02"
+      "start": "2026-10-06",
+      "end": "2026-11-03"
     },
-    "impressions": 135,
-    "clicks": 19,
-    "ctr": 14.1,
-    "position": 13.3,
+    "impressions": 141,
+    "clicks": 21,
+    "ctr": 14.9,
+    "position": 13.1,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 15,
+        "impressions": 16,
         "clicks": 6
       },
       {
@@ -78,15 +78,20 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-05",
-      "end": "2026-11-02"
+      "start": "2026-10-06",
+      "end": "2026-11-03"
     },
-    "impressions": 269,
+    "impressions": 275,
     "clicks": 16,
-    "ctr": 5.9,
-    "position": 28.5,
+    "ctr": 5.8,
+    "position": 28.2,
     "indexed": 15,
     "topQueries": [
+      {
+        "query": "\"palmer packaging inc\" \"addison\"",
+        "impressions": 1,
+        "clicks": 0
+      },
       {
         "query": "\"vendor managed inventory\"",
         "impressions": 12,
@@ -105,11 +110,6 @@
       {
         "query": "bubble wrap suppliers near me",
         "impressions": 1,
-        "clicks": 0
-      },
-      {
-        "query": "bulk plastic pallets elgin",
-        "impressions": 10,
         "clicks": 0
       }
     ]
