@@ -1,29 +1,29 @@
 {
-  "updated": "November 6, 2026",
+  "updated": "November 7, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-05",
-      "end": "2026-11-03"
+      "start": "2026-08-06",
+      "end": "2026-11-04"
     },
-    "impressions": 23208,
+    "impressions": 23158,
     "clicks": 114,
     "ctr": 0.5,
-    "position": 13.7,
+    "position": 13.6,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2877,
+        "impressions": 2878,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2084,
+        "impressions": 2082,
         "clicks": 5
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 185,
+        "impressions": 186,
         "clicks": 3
       },
       {
@@ -40,13 +40,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-06",
-      "end": "2026-11-03"
+      "start": "2026-10-07",
+      "end": "2026-11-04"
     },
-    "impressions": 141,
-    "clicks": 21,
-    "ctr": 14.9,
-    "position": 13.1,
+    "impressions": 149,
+    "clicks": 22,
+    "ctr": 14.8,
+    "position": 11.8,
     "indexed": 46,
     "topQueries": [
       {
@@ -70,7 +70,7 @@
         "clicks": 0
       },
       {
-        "query": "piano classes",
+        "query": "kids piano lesson near me",
         "impressions": 1,
         "clicks": 0
       }
@@ -78,13 +78,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-06",
-      "end": "2026-11-03"
+      "start": "2026-10-07",
+      "end": "2026-11-04"
     },
-    "impressions": 275,
+    "impressions": 285,
     "clicks": 16,
-    "ctr": 5.8,
-    "position": 28.2,
+    "ctr": 5.6,
+    "position": 27.7,
     "indexed": 15,
     "topQueries": [
       {
