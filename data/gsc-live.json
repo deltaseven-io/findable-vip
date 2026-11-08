@@ -1,29 +1,29 @@
 {
-  "updated": "November 7, 2026",
+  "updated": "November 8, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-06",
-      "end": "2026-11-04"
+      "start": "2026-08-07",
+      "end": "2026-11-05"
     },
-    "impressions": 23158,
-    "clicks": 114,
+    "impressions": 23059,
+    "clicks": 116,
     "ctr": 0.5,
-    "position": 13.6,
+    "position": 13.5,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2878,
+        "impressions": 2877,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2082,
+        "impressions": 2081,
         "clicks": 5
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 186,
+        "impressions": 184,
         "clicks": 3
       },
       {
@@ -40,22 +40,27 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-07",
-      "end": "2026-11-04"
+      "start": "2026-10-08",
+      "end": "2026-11-05"
     },
-    "impressions": 149,
-    "clicks": 22,
-    "ctr": 14.8,
-    "position": 11.8,
+    "impressions": 142,
+    "clicks": 24,
+    "ctr": 16.9,
+    "position": 12.4,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 16,
+        "impressions": 13,
         "clicks": 6
       },
       {
         "query": "in home piano lessons",
+        "impressions": 1,
+        "clicks": 1
+      },
+      {
+        "query": "private piano lessons near me",
         "impressions": 1,
         "clicks": 1
       },
@@ -68,23 +73,18 @@
         "query": "elk grove piano lessons",
         "impressions": 1,
         "clicks": 0
-      },
-      {
-        "query": "kids piano lesson near me",
-        "impressions": 1,
-        "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-07",
-      "end": "2026-11-04"
+      "start": "2026-10-08",
+      "end": "2026-11-05"
     },
-    "impressions": 285,
-    "clicks": 16,
-    "ctr": 5.6,
-    "position": 27.7,
+    "impressions": 309,
+    "clicks": 21,
+    "ctr": 6.8,
+    "position": 25.9,
     "indexed": 15,
     "topQueries": [
       {
