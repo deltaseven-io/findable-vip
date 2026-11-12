@@ -1,52 +1,52 @@
 {
-  "updated": "November 11, 2026",
+  "updated": "November 12, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-10",
-      "end": "2026-11-08"
+      "start": "2026-08-11",
+      "end": "2026-11-09"
     },
-    "impressions": 22108,
-    "clicks": 119,
-    "ctr": 0.5,
-    "position": 13.6,
+    "impressions": 21723,
+    "clicks": 122,
+    "ctr": 0.6,
+    "position": 13.3,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2833,
+        "impressions": 2789,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 2046,
-        "clicks": 5
+        "impressions": 2026,
+        "clicks": 4
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 183,
+        "impressions": 182,
         "clicks": 3
-      },
-      {
-        "query": "act tutors near me",
-        "impressions": 2,
-        "clicks": 2
       },
       {
         "query": "connect 4 2 player",
         "impressions": 10,
         "clicks": 2
+      },
+      {
+        "query": "1 on 1",
+        "impressions": 1,
+        "clicks": 1
       }
     ]
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-11",
-      "end": "2026-11-08"
+      "start": "2026-10-12",
+      "end": "2026-11-09"
     },
-    "impressions": 154,
-    "clicks": 24,
-    "ctr": 15.6,
-    "position": 14.2,
+    "impressions": 156,
+    "clicks": 23,
+    "ctr": 14.7,
+    "position": 14.1,
     "indexed": 46,
     "topQueries": [
       {
@@ -78,13 +78,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-11",
-      "end": "2026-11-08"
+      "start": "2026-10-12",
+      "end": "2026-11-09"
     },
-    "impressions": 334,
-    "clicks": 22,
+    "impressions": 366,
+    "clicks": 24,
     "ctr": 6.6,
-    "position": 27.0,
+    "position": 26.3,
     "indexed": 15,
     "topQueries": [
       {
