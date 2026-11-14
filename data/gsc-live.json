@@ -1,19 +1,19 @@
 {
-  "updated": "November 13, 2026",
+  "updated": "November 14, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-12",
-      "end": "2026-11-10"
+      "start": "2026-08-13",
+      "end": "2026-11-11"
     },
-    "impressions": 21456,
-    "clicks": 121,
+    "impressions": 21378,
+    "clicks": 120,
     "ctr": 0.6,
     "position": 13.1,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2790,
+        "impressions": 2766,
         "clicks": 6
       },
       {
@@ -40,24 +40,19 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-13",
-      "end": "2026-11-10"
+      "start": "2026-10-14",
+      "end": "2026-11-11"
     },
-    "impressions": 157,
-    "clicks": 22,
-    "ctr": 14.0,
-    "position": 14.1,
+    "impressions": 147,
+    "clicks": 21,
+    "ctr": 14.3,
+    "position": 14.2,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
         "impressions": 13,
         "clicks": 6
-      },
-      {
-        "query": "in home piano lessons",
-        "impressions": 1,
-        "clicks": 1
       },
       {
         "query": "private piano lessons near me",
@@ -73,18 +68,23 @@
         "query": "elk grove piano lessons",
         "impressions": 1,
         "clicks": 0
+      },
+      {
+        "query": "in home piano lessons near me",
+        "impressions": 1,
+        "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-13",
-      "end": "2026-11-10"
+      "start": "2026-10-14",
+      "end": "2026-11-11"
     },
-    "impressions": 362,
+    "impressions": 360,
     "clicks": 22,
     "ctr": 6.1,
-    "position": 26.3,
+    "position": 26.2,
     "indexed": 15,
     "topQueries": [
       {
