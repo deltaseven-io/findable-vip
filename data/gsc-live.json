@@ -5,8 +5,8 @@
       "start": "2026-08-13",
       "end": "2026-11-11"
     },
-    "impressions": 21378,
-    "clicks": 120,
+    "impressions": 21425,
+    "clicks": 122,
     "ctr": 0.6,
     "position": 13.1,
     "indexed": 13,
@@ -23,7 +23,7 @@
       },
       {
         "query": "geometry tutor near me",
-        "impressions": 181,
+        "impressions": 182,
         "clicks": 3
       },
       {
@@ -43,10 +43,10 @@
       "start": "2026-10-14",
       "end": "2026-11-11"
     },
-    "impressions": 147,
+    "impressions": 155,
     "clicks": 21,
-    "ctr": 14.3,
-    "position": 14.2,
+    "ctr": 13.5,
+    "position": 14.4,
     "indexed": 46,
     "topQueries": [
       {
@@ -81,10 +81,10 @@
       "start": "2026-10-14",
       "end": "2026-11-11"
     },
-    "impressions": 360,
-    "clicks": 22,
-    "ctr": 6.1,
-    "position": 26.2,
+    "impressions": 375,
+    "clicks": 25,
+    "ctr": 6.7,
+    "position": 26.0,
     "indexed": 15,
     "topQueries": [
       {
