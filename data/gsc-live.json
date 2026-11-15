@@ -1,19 +1,19 @@
 {
-  "updated": "November 14, 2026",
+  "updated": "November 15, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-13",
-      "end": "2026-11-11"
+      "start": "2026-08-14",
+      "end": "2026-11-12"
     },
-    "impressions": 21425,
-    "clicks": 122,
+    "impressions": 21346,
+    "clicks": 124,
     "ctr": 0.6,
-    "position": 13.1,
+    "position": 13.0,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2766,
+        "impressions": 2764,
         "clicks": 6
       },
       {
@@ -40,24 +40,29 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-14",
-      "end": "2026-11-11"
+      "start": "2026-10-15",
+      "end": "2026-11-12"
     },
-    "impressions": 155,
+    "impressions": 170,
     "clicks": 21,
-    "ctr": 13.5,
-    "position": 14.4,
+    "ctr": 12.4,
+    "position": 16.6,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 13,
+        "impressions": 14,
         "clicks": 6
       },
       {
         "query": "private piano lessons near me",
         "impressions": 1,
         "clicks": 1
+      },
+      {
+        "query": "age to start piano lessons",
+        "impressions": 3,
+        "clicks": 0
       },
       {
         "query": "best music school in schaumburg il with prices",
@@ -68,23 +73,18 @@
         "query": "elk grove piano lessons",
         "impressions": 1,
         "clicks": 0
-      },
-      {
-        "query": "in home piano lessons near me",
-        "impressions": 1,
-        "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-14",
-      "end": "2026-11-11"
+      "start": "2026-10-15",
+      "end": "2026-11-12"
     },
-    "impressions": 375,
+    "impressions": 377,
     "clicks": 25,
-    "ctr": 6.7,
-    "position": 26.0,
+    "ctr": 6.6,
+    "position": 25.4,
     "indexed": 15,
     "topQueries": [
       {
@@ -94,7 +94,7 @@
       },
       {
         "query": "\"vendor managed inventory\"",
-        "impressions": 12,
+        "impressions": 10,
         "clicks": 0
       },
       {
