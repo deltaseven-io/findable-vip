@@ -1,24 +1,24 @@
 {
-  "updated": "November 17, 2026",
+  "updated": "November 18, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-16",
-      "end": "2026-11-14"
+      "start": "2026-08-17",
+      "end": "2026-11-15"
     },
-    "impressions": 19418,
-    "clicks": 125,
-    "ctr": 0.6,
-    "position": 13.9,
+    "impressions": 19015,
+    "clicks": 126,
+    "ctr": 0.7,
+    "position": 14.0,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2621,
+        "impressions": 2616,
         "clicks": 6
       },
       {
         "query": "math tutor near me",
-        "impressions": 1914,
+        "impressions": 1915,
         "clicks": 4
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "query": "connect 4 2 player",
-        "impressions": 11,
+        "impressions": 12,
         "clicks": 2
       },
       {
@@ -40,13 +40,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-17",
-      "end": "2026-11-14"
+      "start": "2026-10-18",
+      "end": "2026-11-15"
     },
-    "impressions": 177,
-    "clicks": 20,
-    "ctr": 11.3,
-    "position": 17.2,
+    "impressions": 200,
+    "clicks": 21,
+    "ctr": 10.5,
+    "position": 17.3,
     "indexed": 46,
     "topQueries": [
       {
@@ -65,26 +65,26 @@
         "clicks": 0
       },
       {
-        "query": "best music school in schaumburg il with prices",
-        "impressions": 3,
+        "query": "best age for child to start piano lessons",
+        "impressions": 1,
         "clicks": 0
       },
       {
-        "query": "elk grove piano lessons",
-        "impressions": 1,
+        "query": "best music school in schaumburg il with prices",
+        "impressions": 3,
         "clicks": 0
       }
     ]
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-17",
-      "end": "2026-11-14"
+      "start": "2026-10-18",
+      "end": "2026-11-15"
     },
-    "impressions": 371,
-    "clicks": 25,
-    "ctr": 6.7,
-    "position": 25.2,
+    "impressions": 372,
+    "clicks": 24,
+    "ctr": 6.5,
+    "position": 24.8,
     "indexed": 15,
     "topQueries": [
       {
@@ -94,7 +94,12 @@
       },
       {
         "query": "\"vendor managed inventory\"",
-        "impressions": 9,
+        "impressions": 7,
+        "clicks": 0
+      },
+      {
+        "query": "bubble wrap distributors",
+        "impressions": 2,
         "clicks": 0
       },
       {
@@ -105,11 +110,6 @@
       {
         "query": "bubble wrap manufacturers near me",
         "impressions": 1,
-        "clicks": 0
-      },
-      {
-        "query": "bulk plastic pallets elgin",
-        "impressions": 13,
         "clicks": 0
       }
     ]
