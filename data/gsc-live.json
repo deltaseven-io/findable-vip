@@ -1,19 +1,19 @@
 {
-  "updated": "November 23, 2026",
+  "updated": "November 24, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-22",
-      "end": "2026-11-20"
+      "start": "2026-08-23",
+      "end": "2026-11-21"
     },
-    "impressions": 17232,
-    "clicks": 128,
-    "ctr": 0.7,
-    "position": 14.9,
+    "impressions": 17015,
+    "clicks": 130,
+    "ctr": 0.8,
+    "position": 15.0,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2411,
+        "impressions": 2410,
         "clicks": 6
       },
       {
@@ -32,27 +32,27 @@
         "clicks": 2
       },
       {
-        "query": "2 player connect 4",
-        "impressions": 2,
+        "query": "1st grade math tutor near me",
+        "impressions": 4,
         "clicks": 1
       }
     ]
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-23",
-      "end": "2026-11-20"
+      "start": "2026-10-24",
+      "end": "2026-11-21"
     },
-    "impressions": 254,
+    "impressions": 263,
     "clicks": 20,
-    "ctr": 7.9,
-    "position": 18.9,
+    "ctr": 7.6,
+    "position": 18.6,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 7,
-        "clicks": 4
+        "impressions": 6,
+        "clicks": 3
       },
       {
         "query": "piano lessons",
@@ -66,7 +66,7 @@
       },
       {
         "query": "age to start piano lessons",
-        "impressions": 4,
+        "impressions": 5,
         "clicks": 0
       },
       {
@@ -78,13 +78,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-23",
-      "end": "2026-11-20"
+      "start": "2026-10-24",
+      "end": "2026-11-21"
     },
-    "impressions": 475,
+    "impressions": 485,
     "clicks": 27,
-    "ctr": 5.7,
-    "position": 19.8,
+    "ctr": 5.6,
+    "position": 19.3,
     "indexed": 15,
     "topQueries": [
       {
