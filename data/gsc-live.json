@@ -1,19 +1,19 @@
 {
-  "updated": "November 26, 2026",
+  "updated": "November 27, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-25",
-      "end": "2026-11-23"
+      "start": "2026-08-26",
+      "end": "2026-11-24"
     },
-    "impressions": 15864,
+    "impressions": 15847,
     "clicks": 128,
     "ctr": 0.8,
-    "position": 15.7,
+    "position": 15.8,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2394,
+        "impressions": 2395,
         "clicks": 6
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 1760,
+        "impressions": 1763,
         "clicks": 4
       },
       {
@@ -40,19 +40,19 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-26",
-      "end": "2026-11-23"
+      "start": "2026-10-27",
+      "end": "2026-11-24"
     },
-    "impressions": 281,
-    "clicks": 19,
-    "ctr": 6.8,
-    "position": 19.0,
+    "impressions": 282,
+    "clicks": 17,
+    "ctr": 6.0,
+    "position": 19.7,
     "indexed": 46,
     "topQueries": [
       {
         "query": "northwest piano",
-        "impressions": 5,
-        "clicks": 2
+        "impressions": 3,
+        "clicks": 1
       },
       {
         "query": "piano lessons",
@@ -78,13 +78,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-26",
-      "end": "2026-11-23"
+      "start": "2026-10-27",
+      "end": "2026-11-24"
     },
-    "impressions": 576,
+    "impressions": 577,
     "clicks": 28,
     "ctr": 4.9,
-    "position": 18.2,
+    "position": 18.4,
     "indexed": 15,
     "topQueries": [
       {
