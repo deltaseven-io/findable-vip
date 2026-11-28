@@ -1,19 +1,19 @@
 {
-  "updated": "November 27, 2026",
+  "updated": "November 28, 2026",
   "d7": {
     "period": {
-      "start": "2026-08-26",
-      "end": "2026-11-24"
+      "start": "2026-08-27",
+      "end": "2026-11-25"
     },
-    "impressions": 15847,
-    "clicks": 128,
+    "impressions": 15500,
+    "clicks": 127,
     "ctr": 0.8,
-    "position": 15.8,
+    "position": 16.4,
     "indexed": 13,
     "topQueries": [
       {
         "query": "math tutor",
-        "impressions": 2395,
+        "impressions": 2361,
         "clicks": 6
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "query": "math tutor near me",
-        "impressions": 1763,
+        "impressions": 1762,
         "clicks": 4
       },
       {
@@ -40,13 +40,13 @@
   },
   "nwpiano": {
     "period": {
-      "start": "2026-10-27",
-      "end": "2026-11-24"
+      "start": "2026-10-28",
+      "end": "2026-11-25"
     },
-    "impressions": 282,
-    "clicks": 17,
-    "ctr": 6.0,
-    "position": 19.7,
+    "impressions": 287,
+    "clicks": 16,
+    "ctr": 5.6,
+    "position": 20.0,
     "indexed": 46,
     "topQueries": [
       {
@@ -56,7 +56,7 @@
       },
       {
         "query": "piano lessons",
-        "impressions": 13,
+        "impressions": 15,
         "clicks": 1
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "query": "age to start piano lessons",
-        "impressions": 6,
+        "impressions": 7,
         "clicks": 0
       },
       {
@@ -78,13 +78,13 @@
   },
   "ncpalmerpack": {
     "period": {
-      "start": "2026-10-27",
-      "end": "2026-11-24"
+      "start": "2026-10-28",
+      "end": "2026-11-25"
     },
-    "impressions": 577,
+    "impressions": 597,
     "clicks": 28,
-    "ctr": 4.9,
-    "position": 18.4,
+    "ctr": 4.7,
+    "position": 18.5,
     "indexed": 15,
     "topQueries": [
       {
@@ -109,7 +109,7 @@
       },
       {
         "query": "bubble wrap manufacturers near me",
-        "impressions": 2,
+        "impressions": 1,
         "clicks": 0
       }
     ]
